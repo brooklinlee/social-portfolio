@@ -99,3 +99,9 @@ li {
   margin-left: 35px;
   text-align: right;
 }
+
+/* commonly used classes */
+.full-screen-view {
+  height: 100vh;
+  overflow-y: auto;
+}

@@ -4,7 +4,9 @@ import './HomeHeader.css'
 const HomeHeader = () => {
   return (  
     <>
-      <h1>Home Header</h1>
+    <main className='full-screen-view'>
+      <h1 className='test'>Home Header</h1>
+    </main>
     </>
   )
 }
