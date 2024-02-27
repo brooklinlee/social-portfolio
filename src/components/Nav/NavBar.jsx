@@ -1,13 +1,16 @@
 import { NavLink } from "react-router-dom"
 
+// javascript
+import { someFunction } from "./NavBar"
+
 // images
-import SMMLogo from '../assets/images/SMM-Logo.svg'
-
-// bootstrap
-
+import SMMLogo from '../../assets/images/SMM-Logo.svg'
 
 const NavBar = () => {
-  return ( 
+  
+  someFunction()
+  
+  return (
     <header>
       <nav className="nav-container">
           <NavLink to='/' >
