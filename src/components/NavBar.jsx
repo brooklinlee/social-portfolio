@@ -11,8 +11,8 @@ const NavBar = () => {
           <NavLink to='/' >
             <img src={SMMLogo} alt="brooklin Logo" />
           </NavLink>
-          <NavLink to='/' >HOME</NavLink>
-
+          <NavLink to='/' >Home</NavLink>
+          <NavLink to='/about'>About</NavLink>
         </div>
       </nav>
     </header>
