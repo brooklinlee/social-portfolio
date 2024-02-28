@@ -1,0 +1,14 @@
+.home-content {
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content h1 {
+  text-align: center;
+}
+
+.home-content img {
+  margin: auto;
+  width: 75%;
+}
