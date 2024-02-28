@@ -1,0 +1,5 @@
+.half-circle-two {
+  background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
+  border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
+}
+

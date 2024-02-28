@@ -114,5 +114,22 @@ li {
 .full-screen-view {
   height: 100vh;
   overflow-y: auto;
+}
 
+.heading-primary, .heading-secondary {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 1.15;
+  padding-top: 1em;
+  z-index: 1;
+}
+
+.heading-primary {
+  color: var(--primary-color);
+}
+
+.heading-secondary {
+  color: var(--secondary-color);
 }
