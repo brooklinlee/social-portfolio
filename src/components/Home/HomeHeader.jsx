@@ -1,6 +1,11 @@
 // css
 import './HomeHeader.css'
 
+// assets
+import brooklinOne from '../../assets/images/Brooklin-1.svg' 
+// import brooklinTwo from '../../assets/images/Brooklin-2.svg' 
+
+
 const HomeHeader = () => {
   return (  
     <>
@@ -18,7 +23,7 @@ const HomeHeader = () => {
         </div>
       </div>
       <div className='right-div'>
-        <p>Image</p>
+        <img src={brooklinOne} alt="Brooklin Lee Portrait" className='header-portrait'/>
         <div className="blue-shape"></div>
       </div>
     </main>

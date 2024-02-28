@@ -14,7 +14,7 @@ html, body {
   /* variables */
   --primary-color: #0C4A6E;
   --secondary-color: #E5E5E5;
-  --main-font: "League Spartan", sans-serif;
+  --primary-font: "League Spartan", sans-serif;
   --secondary-font: "Poppins", sans-serif;
   height: 100%;
 }
@@ -109,4 +109,5 @@ li {
 .full-screen-view {
   height: 100vh;
   overflow-y: auto;
+
 }
