@@ -100,6 +100,10 @@ li {
   text-align: right;
 }
 
+.nav-container.scrolled {
+  background: red;
+}
+
 /* commonly used classes */
 .full-screen-view {
   height: 100vh;

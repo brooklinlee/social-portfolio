@@ -12,7 +12,7 @@ import Home from './pages/Home'
 import About from './pages/About';
 
 // components
-import NavBar from './components/Nav/NavBar'
+import NavBar from './components/Nav/NavBar.jsx'
 
 function App() {
 
