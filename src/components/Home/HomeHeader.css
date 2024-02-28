@@ -1,6 +1,6 @@
 .full-screen-view {
   display: flex;
-  height: 768px;
+  height: 70.5vh;
 }
 
 .home-header {
@@ -11,7 +11,9 @@
 .left-div {
   width: 50%;
   margin: 2vw 5vw;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .left-div h1 {
@@ -25,23 +27,28 @@
 .right-div {
   width: 50%;
   position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .header-portrait {
-  z-index: 2;
+  z-index: 10;
   position: absolute;
   bottom: 0;
-  width: 400vw;
+  width: 800vw;
+  height: auto;
 }
 
 .blue-shape {
   position: absolute;
   z-index: 1;
-  
   background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
   width: 600px;
   height: 700px;
   border-radius: 59% 41% 36% 64% / 43% 27% 73% 57%  ;
+}
+
+@media screen and (min-width: 1081px) {
+  .header-portrait {
+    height: 676px;
+  }
 }
