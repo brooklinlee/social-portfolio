@@ -25,7 +25,19 @@
 }
 
 .left-div p {
+  font-family: var(--secondary-font);
   font-size: 18px;
+  padding-bottom: 1em;
+}
+
+.left-div span {
+  padding-right: 8px;
+}
+
+.left-div li {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  padding: 4px 0;
 }
 
 .right-div {

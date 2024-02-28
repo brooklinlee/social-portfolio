@@ -16,7 +16,7 @@ const HomeHeader = () => {
     <main className='home-header'>
       <div className='left-div'>
         <h1>Hi. I'm Brooklin.<br></br>I do Social Media.</h1>
-        <p>Stop struggling with managing your social media presence alone. Instead, work with a professional to optimize your social media strategy for impactful results.</p>
+        <p><strong>Stop struggling</strong> with managing your social media presence alone. Instead, work with a professional to <strong>optimize your social media strategy for impactful results.</strong></p>
         <div>
           <ul>
             <li><span><FontAwesomeIcon icon={faCircleCheck} /></span>Expertise in social media trends</li>
