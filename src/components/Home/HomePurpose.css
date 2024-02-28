@@ -1,5 +1,11 @@
 .half-circle-two {
-  background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
+  background-image: linear-gradient(to left top, #23be93, #00a29b, #008598, #006789, #0c4a6e);
   border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
+  /* position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); */
+  width: 100vw;
+  height: 400px;
 }
 
