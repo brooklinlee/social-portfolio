@@ -1,5 +1,5 @@
 .home-content {
-  height: 768px;
+  /* height: 768px; */
   display: flex;
   flex-direction: column;
   position: relative;
@@ -13,12 +13,14 @@
   font-weight: 800;
   line-height: 1.15;
   padding-top: 1em;
+  z-index: 1;
 }
 
 .home-content img {
   margin: auto;
   width: 75%;
   z-index: 1;
+  padding-bottom: 30px;
 }
 
 .half-circle {
