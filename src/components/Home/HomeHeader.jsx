@@ -9,9 +9,9 @@ import brooklinOne from '../../assets/images/Brooklin-1.svg'
 const HomeHeader = () => {
   return (  
     <>
-    <main className='full-screen-view'>
+    <main className='home-header'>
       <div className='left-div'>
-        <h1>Hi. I'm Brooklin<br></br>I do Social Media</h1>
+        <h1>Hi. I'm Brooklin.<br></br>I do Social Media.</h1>
         <p>Stop struggling with managing your social media presence alone. <br></br>Instead, work with a professional to optimize your social media strategy for impactful results.</p>
         <div>
           <ul>

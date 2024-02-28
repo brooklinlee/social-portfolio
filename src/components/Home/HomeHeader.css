@@ -1,35 +1,47 @@
 .full-screen-view {
   display: flex;
-  margin: 2vw 5vw;
+  height: 768px;
 }
 
+.home-header {
+  display: flex;
+  height: 678px;
+}
 
 .left-div {
   width: 50%;
+  margin: 2vw 5vw;
+  
 }
 
 .left-div h1 {
   color: var(--primary-color);
   font-family: var(--primary-font);
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: 800;
-  line-height: 1;
+  line-height: 1.15;
 }
 
 .right-div {
   width: 50%;
-  display: flex;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header-portrait {
   z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 400vw;
 }
 
 .blue-shape {
-  width: 100%;
-  height: 100vh;
-  background-color: var(--primary-color);
-  margin-left: -100px;
-  margin-right: 0;
+  position: absolute;
   z-index: 1;
+  
+  background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
+  width: 600px;
+  height: 700px;
+  border-radius: 59% 41% 36% 64% / 43% 27% 73% 57%  ;
 }
