@@ -1,3 +1,7 @@
+.home-purpose {
+  position: relative;
+}
+
 .half-circle-two {
   background-image: linear-gradient(to left top, #23be93, #00a29b, #008598, #006789, #0c4a6e);
   border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
@@ -7,5 +11,12 @@
   transform: translateX(-50%); */
   width: 100vw;
   height: 400px;
+}
+
+.home-purpose h1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
