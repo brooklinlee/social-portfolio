@@ -93,6 +93,7 @@ li {
   font-weight: bold;
   align-items: center;
   justify-content: flex-start;
+  
 }
 
 .nav-container li {
@@ -101,7 +102,7 @@ li {
 }
 
 .nav-container.scrolled {
-  background: red;
+  background: whitesmoke;
 }
 
 /* commonly used classes */
