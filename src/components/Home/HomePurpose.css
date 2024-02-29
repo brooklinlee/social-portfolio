@@ -23,6 +23,16 @@
 .icon-section {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin: 0 2em;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: var(--primary-margin);
 }
 
 .icon-circle {
@@ -41,3 +51,18 @@
   transform: translateX(-50%);
   top: 10%;
 }
+
+.icon h2 {
+  font-size: 24px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+.icon p {
+  font-size: 20px;
+  font-family: var(--secondary-font);
+  line-height: 1.8;
+  text-align: center;
+}
+
