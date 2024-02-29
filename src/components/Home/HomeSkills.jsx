@@ -22,8 +22,8 @@ import React from '../../assets/images/React.svg'
 const HomeSkills = () => {
   return (  
     <>
-      <main className="full-screen-view">
-        <h1>Skills, Technologies & Platforms... Oh My!</h1>
+      <main className="home-skills">
+        <h1 className='heading-primary'>Skills, Technologies & Platforms... Oh My!</h1>
         <div className="skill-icon-section">
           <img src={ SproutSocial } alt="Sprout Social Logo" />
           <img src={ MetaBusiness } alt="MetaBusiness Logo" />
@@ -42,6 +42,7 @@ const HomeSkills = () => {
           <img src={ JavaScript } alt="JavaScript Logo" />
           <img src={ React } alt="React Logo" />
         </div>
+        
       </main>
     </>
   )
