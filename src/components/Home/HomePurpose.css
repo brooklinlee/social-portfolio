@@ -20,3 +20,24 @@
   transform: translateX(-50%);
 }
 
+.icon-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-circle {
+  width: 200px;
+  height: 200px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: relative;
+}
+
+.icon-circle span {
+  color: var(--secondary-color);
+  font-size: 110px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}
