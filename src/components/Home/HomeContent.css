@@ -17,7 +17,7 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
+  background-image: var(--primary-gradient);
   border-radius: 50% 50% 50% 50% / 100% 100% 0% 0% ;
   width: 100vw;
   height: 400px;

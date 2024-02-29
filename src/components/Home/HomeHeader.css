@@ -52,7 +52,7 @@
 .blue-shape {
   position: absolute;
   z-index: 1;
-  background-image: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
+  background-image: var(--primary-gradient);
   width: 600px;
   height: 700px;
   border-radius: 59% 41% 36% 64% / 43% 27% 73% 57%  ;

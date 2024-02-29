@@ -8,7 +8,6 @@ html, body {
   background-color: #f2f4f8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* margin: 2vw 5vw; */
 }
 
 :root {
@@ -19,6 +18,7 @@ html, body {
   --secondary-font: "Poppins", sans-serif;
   height: 100%;
   --primary-margin: 2vw 5vw;
+  --primary-gradient: linear-gradient(to right top, #0c4a6e, #006789, #008598, #00a29b, #23be93);
 }
 
 body {
@@ -54,7 +54,7 @@ p {
   margin: 0;
   opacity: .9;
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   text-align: justify;
   /* text-align-last: center; */
