@@ -1,5 +1,6 @@
 .home-purpose {
   position: relative;
+  height: 768px;
 }
 
 .half-circle-two {
@@ -25,6 +26,8 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 0 2em;
+  position: absolute;
+  top: 180px;
 }
 
 .icon {
@@ -32,24 +35,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 25px 40px;
   margin: var(--primary-margin);
+  background-color: whitesmoke;
+  border-radius: 20px;
+
 }
 
 .icon-circle {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   background-color: var(--primary-color);
   border-radius: 50%;
   position: relative;
 }
 
 .icon-circle span {
-  color: var(--secondary-color);
-  font-size: 110px;
+  /* color: var(--secondary-color); */
+  color: white;
+  font-size: 80px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 10%;
+  top: 14%;
 }
 
 .icon h2 {
