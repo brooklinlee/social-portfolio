@@ -57,6 +57,7 @@ p {
   font-size: 18px;
   line-height: 28px;
   text-align: justify;
+  font-family: var(--secondary-font);
   /* text-align-last: center; */
 }
 

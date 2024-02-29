@@ -1,14 +1,26 @@
-.heading-primary {
-  padding-bottom: 0.5em;
+.home-skills {
+  width: 100vw;
 }
+
+/* .heading-primary {
+  padding-bottom: 0.5em;
+  background-color: lightgray;
+} */
 
 .skill-icon-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .skill-icon-section > img {
   height: 100px;
   padding: 8px 16px;
+}
+
+.home-skills p {
+  padding: 2vw 6vw;
 }

@@ -18,6 +18,7 @@ import HTML from '../../assets/images/HTML.svg'
 import CSS from '../../assets/images/CSS.svg'
 import JavaScript from '../../assets/images/JS.svg'
 import React from '../../assets/images/React.svg'
+import WordPress from '../../assets/images/WordPress.svg'
 
 const HomeSkills = () => {
   return (  
@@ -41,8 +42,10 @@ const HomeSkills = () => {
           <img src={ CSS } alt="CSS Logo" />
           <img src={ JavaScript } alt="JavaScript Logo" />
           <img src={ React } alt="React Logo" />
+          <img src={ WordPress } alt="WordPress Logo" />
         </div>
-        
+        <p>I am proficient in a diverse array of skills and technologies essential for both social media management and basic front-end software engineering. My expertise extends to crafting and refining content from conceptualization to post-analysis, including optimizing posts and landing pages based on analytics data. I excel in developing a cohesive brand presence that resonates with audiences across various platforms, ensuring consistency and engagement.</p>
+        <h3 className="heading-primary">Past & Present Clients</h3>
       </main>
     </>
   )
