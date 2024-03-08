@@ -103,8 +103,16 @@ li {
   position: relative; 
 }
 
+.dropdown-content li {
+  margin-left: 35px;
+  position: relative; 
+  font-size: 25.6px;
+
+}
+
 .dropdown .dropbtn {
   font-family: inherit;
+  font-weight: 600;
 }
 
 .dropbtn:hover {
@@ -116,10 +124,15 @@ li {
   position: absolute;
   top: 100%; 
   left: 0; 
+  width: 400px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: var(--secondary-color);
 }
 
 
