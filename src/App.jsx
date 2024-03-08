@@ -24,27 +24,33 @@ function App() {
       name: 'Pür Life Medical - Cottonwood Heights, Utah',
       description: 'A Holistic Medical Clinic',
       cta: 'Contact Me'
+    },
+    {
+      id: 2,
+      name: 'Black Rock Mountain Resort',
+      description: 'Luxury Townhomes and Condos located in Park City, Utah',
+      cta: 'Contact Me'
     }
   ]
 
   return (
-    <>
-    <NavBar brands={brands}/>
+<>
+  <NavBar brands={brands}/>
     <main>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/portfolio' element={<Portfolio brands={brands} />} />
         {brands.map(brand => (
           <Route 
             key={brand.id}
             path={`/portfolio/${brand.id}`}
-            render={() => <BrandTemplate brand={brand}/>}
+            element={<BrandTemplate brand={brand} />}
           />
         ))}
-        <Route path='/portfolio' element={<Portfolio />} />
       </Routes>
     </main>
-    </>
+  </>
   )
 }
 

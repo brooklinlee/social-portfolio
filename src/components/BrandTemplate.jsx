@@ -9,7 +9,6 @@ const BrandTemplate = ({ brand }) => {
         <button>{brand.cta}</button>
       </section>
     </>
-
   )
 }
 
