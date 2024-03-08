@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // pages
 import Home from './pages/Home'
 import About from './pages/About';
+import Portfolio from './pages/Portfolio.jsx';
 import PurLife from './pages/PurLife.jsx';
 import BlackRock from './pages/BlackRock.jsx';
 import Itovi from './pages/iTOVi.jsx';
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/portfolio-purlife' element={<PurLife />} />
         <Route path='/portfolio-blackrock' element={<BlackRock />} />
         <Route path='/portfolio-itovi' element={<Itovi />} />
