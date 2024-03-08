@@ -74,20 +74,17 @@ li {
 
 /* navbar */
 .nav-container {
-  top: 0; 
+  top: 0;
   z-index: 1;
   width: 100%;
   height: 100px;
   display: flex;
-  position: fixed; 
-  padding: 14px 21px;
+  position: fixed;
   align-items: center;
   padding: 2vw 5vw;
-  /* background: white; */
-  /* border-bottom: 1px solid rgb(200, 200, 200); */
 }
 
-.nav-container img{
+.nav-container img {
   width: 100px;
 }
 
@@ -99,17 +96,32 @@ li {
   font-weight: bold;
   align-items: center;
   justify-content: flex-start;
-  
 }
 
 .nav-container li {
   margin-left: 35px;
-  text-align: right;
+  position: relative; 
 }
 
-.nav-container.scrolled {
-  background: whitesmoke;
+.dropdown .dropbtn {
+  font-family: inherit;
 }
+
+.dropbtn:hover {
+  background-color: var(--secondary-color);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0; 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /* commonly used classes */
 .full-screen-view {

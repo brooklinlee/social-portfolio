@@ -25,6 +25,13 @@ const NavBar = () => {
           <ul>
             <li><NavLink to='/' >Home</NavLink></li>
             <li><NavLink to='/about'>About</NavLink></li>
+            <li className="dropdown">
+              <button className="dropbtn">Portfolio</button>
+              <div className="dropdown-content">
+                <li><NavLink to='/portfolio-purlife'>Pür Life</NavLink></li>
+                <li><NavLink to='/portfolio-blackrock'>BlackRock Mountain Resort</NavLink></li>
+              </div>
+            </li>
           </ul>
       </nav>
     </header>

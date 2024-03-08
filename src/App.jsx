@@ -10,6 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // pages
 import Home from './pages/Home'
 import About from './pages/About';
+import PurLife from './pages/PurLife.jsx';
+import BlackRock from './pages/BlackRock.jsx';
 
 // components
 import NavBar from './components/Nav/NavBar.jsx'
@@ -23,6 +25,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/portfolio-purlife' element={<PurLife />} />
+        <Route path='/portfolio-blackrock' element={<BlackRock />} />
       </Routes>
     </main>
     </>
