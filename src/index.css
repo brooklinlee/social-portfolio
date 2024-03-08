@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 html, body {
   margin: 0;
@@ -50,7 +50,7 @@ h5 {
   font-weight: 500;
 }
 
-p {
+p, li {
   margin: 0;
   opacity: .9;
   width: 100%;
@@ -67,12 +67,16 @@ a {
   text-decoration: none;
 }
 
-li {
-  font-family: "League Spartan", sans-serif;
-  font-size: 1.6em;
-}
+
 
 /* navbar */
+.navLi {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.6em;
+  opacity: 1;
+  width: fit-content;
+}
+
 .nav-container {
   top: 0;
   z-index: 1;

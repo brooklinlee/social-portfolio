@@ -1,7 +1,4 @@
-/* .brand-template {
-  padding: 0px 4%;
-} */
-
+/* header */
 .bt-header {
   min-height: 500px;
   display: flex;
@@ -13,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .bt-header h1 {
   text-align: center;
@@ -44,7 +40,11 @@
   background-color:rgba(0, 0, 0, 0);
   color: var(--primary-color);
   outline: 2px solid ;
+}
 
+/* description */
+.divided-list {
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {

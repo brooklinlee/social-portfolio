@@ -28,14 +28,24 @@ function App() {
       backgroundImageUrl: `url(${PLMHeader})`,
       name: 'Pür Life Medical - Cottonwood Heights',
       description: 'A Holistic Medical Clinic',
-      cta: 'Contact Me'
+      cta: 'Contact Me',
+      pDescriptorOne: 'Pür Life Medical is....',
+      liOne: 'thing I did for them',
+      liTwo:'another thing',
+      liThree: 'another thing',
+      pDescriptorTwo: 'Check out content below'
     },
     {
       id: 2,
       backgroundImageUrl: `url(${BRHeader})`,
       name: 'Black Rock Mountain Resort',
       description: 'Luxury Townhomes and Condos located in Park City, Utah',
-      cta: 'Contact Me'
+      cta: 'Contact Me',
+      pDescriptorOne: 'Black Rock Resort is....',
+      liOne: 'thing I did for them',
+      liTwo:'another thing',
+      liThree: 'another thing',
+      pDescriptorTwo: 'Check out content below'
     }
   ]
 

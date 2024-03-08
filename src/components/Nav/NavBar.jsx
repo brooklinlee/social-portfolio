@@ -24,13 +24,13 @@ const NavBar = ({ brands }) => {
             <img src={SMMLogo} alt="brooklin Logo" />
           </NavLink>
           <ul>
-            <li><NavLink to='/' >Home</NavLink></li>
-            <li><NavLink to='/about'>About</NavLink></li>
+            <li className="navLi"><NavLink to='/' >Home</NavLink></li>
+            <li className="navLi"><NavLink to='/about'>About</NavLink></li>
             <li className="dropdown">
-              <button className="dropbtn">Portfolio</button>
+              <button className="dropbtn " >Portfolio</button>
               <div className="dropdown-content">
                 {brands.map(brand => (
-                  <li key={brand.id}><NavLink to={`/portfolio/${brand.id}`} >{brand.name}</NavLink></li>
+                  <li key={brand.id} className="navLi"><NavLink to={`/portfolio/${brand.id}`} >{brand.name}</NavLink></li>
                 ))}
               </div>
             </li>
