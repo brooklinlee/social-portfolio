@@ -12,10 +12,6 @@
   padding: 48px;
 }
 
-.bt-header * {
-  padding: ;
-}
-
 .bt-header h1 {
   text-align: center;
   font-family: var(--secondary-font);
@@ -43,4 +39,19 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
 
+}
+
+@media screen and (max-width: 768px) {
+  .bt-header * {
+    margin: 18px 5px;
+    /* outline: 1px solid blue; */
+  }
+
+  .bt-header h1 {
+    font-size: 28px;
+  }
+
+  .bt-header h2 button {
+    font-size: 18px;
+  }
 }
