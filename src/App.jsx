@@ -30,12 +30,6 @@ function App() {
       name: 'Black Rock Mountain Resort',
       description: 'Luxury Townhomes and Condos located in Park City, Utah',
       cta: 'Contact Me'
-    },
-    {
-      id: 3,
-      name: 'Number',
-      description: 'thing',
-      cta: 'eat my butt'
     }
   ]
 
