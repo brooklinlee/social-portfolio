@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home'
 import About from './pages/About';
 import Portfolio from './pages/Portfolio.jsx';
-import BrandTemplate from './components/BrandTemplate.jsx';
+import BrandTemplate from './components/Portfolio/BrandTemplate.jsx';
 
 // components
 import NavBar from './components/Nav/NavBar.jsx'
@@ -21,7 +21,7 @@ function App() {
   const brands = [
     {
       id: 1,
-      name: 'Pür Life Medical - Cottonwood Heights, Utah',
+      name: 'Pür Life Medical - Cottonwood Heights',
       description: 'A Holistic Medical Clinic',
       cta: 'Contact Me'
     },
@@ -30,6 +30,12 @@ function App() {
       name: 'Black Rock Mountain Resort',
       description: 'Luxury Townhomes and Condos located in Park City, Utah',
       cta: 'Contact Me'
+    },
+    {
+      id: 3,
+      name: 'Number',
+      description: 'thing',
+      cta: 'eat my butt'
     }
   ]
 

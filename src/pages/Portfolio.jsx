@@ -1,4 +1,4 @@
-import BrandTemplate from "../components/BrandTemplate"
+import BrandTemplate from "../components/Portfolio/BrandTemplate"
 
 const Portfolio = ({ brands }) => {
 

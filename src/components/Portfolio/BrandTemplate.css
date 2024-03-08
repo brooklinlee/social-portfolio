@@ -1,0 +1,46 @@
+.brand-template {
+  margin: 0px 4%;
+}
+
+.bt-header {
+  min-height: 400px;
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 48px;
+}
+
+.bt-header * {
+  padding: ;
+}
+
+.bt-header h1 {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 65px;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.bt-header h2, button {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 22px;
+}
+
+.bt-header button {
+  background-color: var(--secondary-color);
+  padding: 16px 55px;
+  width: fit-content;
+  border-radius: 48px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.bt-header button:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+
+}
