@@ -1,13 +1,14 @@
 import { NavLink } from "react-router-dom"
 import { useEffect, useRef } from "react"
 
+
 // javascript
 import { addScrollListener } from "./NavBar"
 
 // images
 import SMMLogo from '../../assets/images/SMM-Logo.svg'
 
-const NavBar = () => {
+const NavBar = ({ brands }) => {
 
   const navbarRef = useRef(null)
 
@@ -28,12 +29,9 @@ const NavBar = () => {
             <li className="dropdown">
               <button className="dropbtn">Portfolio</button>
               <div className="dropdown-content">
-                <li><NavLink to='/portfolio-purlife'>Pür Life</NavLink></li>
-                <li><NavLink to='/portfolio-blackrock'>Black Rock Mountain Resort</NavLink></li>
-                <li><NavLink to='/portfolio-itovi'>iTOVi Scanner</NavLink></li>
-                <li><NavLink to='/portfolio-olive'>Olive Dog Salons</NavLink></li>
-                <li><NavLink to='/portfolio-oilstuff'>Oil Stuff</NavLink></li>
-                <li><NavLink to='/portfolio-ziva'>Ziva</NavLink></li>
+                {brands.map(brand => (
+                  <li key={brand.id}><NavLink to={`/portfolio/${brand.id}`} />{brand.name}</li>
+                ))}
               </div>
             </li>
           </ul>

@@ -11,32 +11,37 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home'
 import About from './pages/About';
 import Portfolio from './pages/Portfolio.jsx';
-import PurLife from './pages/PurLife.jsx';
-import BlackRock from './pages/BlackRock.jsx';
-import Itovi from './pages/iTOVi.jsx';
-import OilStuff from './pages/OilStuff.jsx';
-import Olive from './pages/Olive.jsx';
-import Ziva from './pages/Ziva.jsx';
+import BrandTemplate from './components/BrandTemplate.jsx';
 
 // components
 import NavBar from './components/Nav/NavBar.jsx'
 
 function App() {
 
+  const brands = [
+    {
+      id: 1,
+      name: 'Pür Life Medical - Cottonwood Heights, Utah',
+      description: 'A Holistic Medical Clinic',
+      cta: 'Contact Me'
+    }
+  ]
+
   return (
     <>
-    <NavBar />
+    <NavBar brands={brands}/>
     <main>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        {brands.map(brand => (
+          <Route 
+            key={brand.id}
+            path={`/portfolio/${brand.id}`}
+            render={() => <BrandTemplate brand={brand}/>}
+          />
+        ))}
         <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/portfolio-purlife' element={<PurLife />} />
-        <Route path='/portfolio-blackrock' element={<BlackRock />} />
-        <Route path='/portfolio-itovi' element={<Itovi />} />
-        <Route path='/portfolio-olive' element={<Olive />} />
-        <Route path='/portfolio-oilstuff' element={<OilStuff />} />
-        <Route path='/portfolio-ziva' element={<Ziva />} />
       </Routes>
     </main>
     </>
