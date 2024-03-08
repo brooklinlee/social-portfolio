@@ -29,7 +29,11 @@ const NavBar = () => {
               <button className="dropbtn">Portfolio</button>
               <div className="dropdown-content">
                 <li><NavLink to='/portfolio-purlife'>Pür Life</NavLink></li>
-                <li><NavLink to='/portfolio-blackrock'>BlackRock Mountain Resort</NavLink></li>
+                <li><NavLink to='/portfolio-blackrock'>Black Rock Mountain Resort</NavLink></li>
+                <li><NavLink to='/portfolio-itovi'>iTOVi Scanner</NavLink></li>
+                <li><NavLink to='/portfolio-olive'>Olive Dog Salons</NavLink></li>
+                <li><NavLink to='/portfolio-oilstuff'>Oil Stuff</NavLink></li>
+                <li><NavLink to='/portfolio-ziva'>Ziva</NavLink></li>
               </div>
             </li>
           </ul>
