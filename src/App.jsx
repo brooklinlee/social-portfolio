@@ -34,12 +34,33 @@ function App() {
       liTwo:'another thing',
       liThree: 'another thing',
       pDescriptorTwo: 'Check out content below',
-      images: [],
-      videos: [BHRTReel],
+      images: [
+        {
+          src: PLMSkinnyShot1,
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
+        }, 
+        {
+          src: PLMSkinnyShot2,
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
+        }],
+      videos: [
+        {
+          src: BHRTReel,
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
+        }],
       carousel: [
         {
           id: 1,
-          images: [PLMSkinnyShot1, PLMSkinnyShot2]
+          images: [PLMSkinnyShot1, PLMSkinnyShot2],
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
         }
       ]
     },
