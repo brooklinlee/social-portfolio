@@ -1,6 +1,13 @@
-const ContentCard = () => {
+const ContentCard = ({ content, caption, purpose, equipment }) => {
   return (  
-    <>Content Card</>
+    <div className="content-card">
+      <div className="content">{ content }</div>
+      <div className="info">
+        <p>{ caption }</p>
+        <p>{ purpose }</p>
+        <p>{ equipment }</p>
+      </div>
+    </div>
   )
 }
 

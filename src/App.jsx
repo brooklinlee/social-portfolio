@@ -61,6 +61,13 @@ function App() {
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
+        },
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot2],
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
         }
       ]
     },

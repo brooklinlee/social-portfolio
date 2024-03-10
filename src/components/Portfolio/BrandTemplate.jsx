@@ -1,6 +1,7 @@
 import './BrandTemplate.css'
 
 import Carousel from './Carousel'
+import ContentCard from './ContentCard'
 
 const BrandTemplate = ({ brand }) => {
 
@@ -29,29 +30,36 @@ const BrandTemplate = ({ brand }) => {
       </section>
       <section className='bt-content'>
         <div className="video">
-          {brand.videos && brand.videos.map((video, index) => (
-            <video key={index} src={video.src} controls preload='auto'/>
+        {brand.videos && brand.videos.map((video, index) => (
+            <ContentCard
+              key={index}
+              content={<video src={video.src} controls preload='auto' />}
+              caption={video.caption}
+              purpose={video.purpose}
+              equipment={video.equipment}
+            />
           ))}
         </div>
         <div className="images">
-          {brand.images && brand.images.map((image, index) => (
-            <>
-              <img key={index} src={image.src} alt={`Image ${index + 1}`} />
-              <p>{image.caption}</p>
-              <p>{image.purpose}</p>
-              <p>{image.equipment}</p>
-            </>
+        {brand.images && brand.images.map((image, index) => (
+            <ContentCard
+              key={index}
+              content={<img src={image.src} alt={`Image ${index + 1}`} />}
+              caption={image.caption}
+              purpose={image.purpose}
+              equipment={image.equipment}
+            />
           ))}
         </div>
         <div className="carousel">
-          <h1>CAROUSEL</h1>
-          {brand.carousel.map((carousel, index) => (
-            <>
-              <Carousel key={index} images={carousel.images} />
-              <p>{carousel.caption}</p>
-              <p>{carousel.purpose}</p>
-              <p>{carousel.equipment}</p>
-            </>
+          {brand.carousel && brand.carousel.map((carousel, index) => (
+            <ContentCard
+              key={index}
+              content={<Carousel images={carousel.images} />}
+              caption={carousel.caption}
+              purpose={carousel.purpose}
+              equipment={carousel.equipment}
+            />
           ))}
         </div>
       </section>
