@@ -25,6 +25,15 @@ const BrandTemplate = ({ brand }) => {
         </div>
         <p>{brand.pDescriptorTwo}</p>
       </section>
+      <section className='bt-content'>
+        <div className="video"></div>
+        <div className="images">
+          {brand.images && brand.images.map((image, index) => (
+            <img key={index} src={image} alt={`Image ${index + 1}`} />
+  ))}
+</div>
+        <div className="carousel"></div>
+      </section>
     </main>
   )
 }

@@ -1,11 +1,5 @@
-// import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-
-// bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import Button from 'react-bootstrap/Button';
-
 
 // pages
 import Home from './pages/Home'
@@ -16,6 +10,8 @@ import BrandTemplate from './components/Portfolio/BrandTemplate.jsx';
 // assets
 import PLMHeader from './assets/images/PLMHeader.svg'
 import BRHeader from './assets/images/BRHeader.svg'
+import PLMSkinnyShot1 from './assets/images/PLMSkinnyShot1.svg'
+
 
 // components
 import NavBar from './components/Nav/NavBar.jsx'
@@ -33,7 +29,19 @@ function App() {
       liOne: 'thing I did for them',
       liTwo:'another thing',
       liThree: 'another thing',
-      pDescriptorTwo: 'Check out content below'
+      pDescriptorTwo: 'Check out content below',
+      images: [PLMSkinnyShot1],
+      video: [],
+      carousel: [
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot1]
+        }, 
+        {
+          id: 2,
+          images: [PLMSkinnyShot1, PLMSkinnyShot1]
+        }
+      ]
     },
     {
       id: 2,
@@ -45,7 +53,10 @@ function App() {
       liOne: 'thing I did for them',
       liTwo:'another thing',
       liThree: 'another thing',
-      pDescriptorTwo: 'Check out content below'
+      pDescriptorTwo: 'Check out content below',
+      images: [PLMSkinnyShot1],
+      video: [],
+      carousel: []
     }
   ]
 
