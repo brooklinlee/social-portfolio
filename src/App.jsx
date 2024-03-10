@@ -13,6 +13,9 @@ import BRHeader from './assets/images/BRHeader.svg'
 import PLMSkinnyShot1 from './assets/images/PLMSkinnyShot1.svg'
 import PLMSkinnyShot2 from './assets/images/PLMSkinnyShot2.svg'
 
+// videos
+import BHRTReel from './assets/videos/BHRTReel.mp4'
+
 
 // components
 import NavBar from './components/Nav/NavBar.jsx'
@@ -32,7 +35,7 @@ function App() {
       liThree: 'another thing',
       pDescriptorTwo: 'Check out content below',
       images: [],
-      video: [],
+      videos: [BHRTReel],
       carousel: [
         {
           id: 1,
@@ -52,7 +55,7 @@ function App() {
       liThree: 'another thing',
       pDescriptorTwo: 'Check out content below',
       images: [PLMSkinnyShot1],
-      video: [],
+      video: [BHRTReel],
       carousel: [
         {
           id: 1,
