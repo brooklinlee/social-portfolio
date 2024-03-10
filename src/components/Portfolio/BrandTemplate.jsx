@@ -1,5 +1,7 @@
 import './BrandTemplate.css'
 
+import Carousel from './Carousel'
+
 const BrandTemplate = ({ brand }) => {
 
   return (  
@@ -32,7 +34,10 @@ const BrandTemplate = ({ brand }) => {
             <img key={index} src={image} alt={`Image ${index + 1}`} />
   ))}
 </div>
-        <div className="carousel"></div>
+        <div className="carousel">
+          <h1>CAROUSEL</h1>
+          <Carousel images={brand.carousel.length > 0 ? brand.carousel[0].images : []} />
+        </div>
       </section>
     </main>
   )

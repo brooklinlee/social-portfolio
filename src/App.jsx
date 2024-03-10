@@ -11,6 +11,7 @@ import BrandTemplate from './components/Portfolio/BrandTemplate.jsx';
 import PLMHeader from './assets/images/PLMHeader.svg'
 import BRHeader from './assets/images/BRHeader.svg'
 import PLMSkinnyShot1 from './assets/images/PLMSkinnyShot1.svg'
+import PLMSkinnyShot2 from './assets/images/PLMSkinnyShot2.svg'
 
 
 // components
@@ -30,16 +31,12 @@ function App() {
       liTwo:'another thing',
       liThree: 'another thing',
       pDescriptorTwo: 'Check out content below',
-      images: [PLMSkinnyShot1],
+      images: [],
       video: [],
       carousel: [
         {
           id: 1,
-          images: [PLMSkinnyShot1, PLMSkinnyShot1]
-        }, 
-        {
-          id: 2,
-          images: [PLMSkinnyShot1, PLMSkinnyShot1]
+          images: [PLMSkinnyShot1, PLMSkinnyShot2]
         }
       ]
     },
