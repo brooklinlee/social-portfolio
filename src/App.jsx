@@ -53,7 +53,16 @@ function App() {
       pDescriptorTwo: 'Check out content below',
       images: [PLMSkinnyShot1],
       video: [],
-      carousel: []
+      carousel: [
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        },
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        }
+      ]
     }
   ]
 

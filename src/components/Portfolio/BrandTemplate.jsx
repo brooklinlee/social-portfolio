@@ -36,7 +36,9 @@ const BrandTemplate = ({ brand }) => {
 </div>
         <div className="carousel">
           <h1>CAROUSEL</h1>
-          <Carousel images={brand.carousel.length > 0 ? brand.carousel[0].images : []} />
+          {brand.carousel.map((carousel, index) => (
+      <Carousel key={index} images={carousel.images} />
+    ))}
         </div>
       </section>
     </main>
