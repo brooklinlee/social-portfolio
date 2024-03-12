@@ -4,6 +4,9 @@
 }
 
 .carousel_slide {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +30,11 @@
 }
 
 .carousel_control__prev {
-  left: 0;
+  left: 0px;
 }
 
 .carousel_control__next {
-  right: 0;
+  right: 0px;
 }
 
 .carousel_control span {
