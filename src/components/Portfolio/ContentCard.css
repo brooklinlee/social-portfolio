@@ -2,12 +2,13 @@
   /* border: 1px solid red; */
   background-color: white;
   padding: 10px;
-  width: 600px;
+  width: 500px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px auto;
+  outline: 1px solid var(--primary-color)
 }
 
 .content {

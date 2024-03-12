@@ -15,6 +15,9 @@ import PLMSkinnyShot2 from './assets/images/PLMSkinnyShot2.svg'
 
 // videos
 import BHRTReel from './assets/videos/BHRTReel.mp4'
+import PLMJetReel from './assets/videos/PLMJetReel.mp4'
+import PLMGrandOpening from './assets/videos/PLMGrandOpening.mp4'
+
 
 
 // components
@@ -34,25 +37,6 @@ function App() {
       liTwo:'another thing',
       liThree: 'another thing',
       pDescriptorTwo: 'Check out content below',
-      images: [
-        {
-          src: PLMSkinnyShot1,
-          caption: 'Caption example',
-          purpose: 'The purpose of this content is...',
-          equipment: 'The equipment used to creat this content is...'
-        }, 
-        {
-          src: PLMSkinnyShot2,
-          caption: 'Caption example',
-          purpose: 'The purpose of this content is...',
-          equipment: 'The equipment used to creat this content is...'
-        }, 
-        {
-          src: PLMSkinnyShot2,
-          caption: 'Caption example',
-          purpose: 'The purpose of this content is...',
-          equipment: 'The equipment used to creat this content is...'
-        }],
       videos: [
         {
           src: BHRTReel,
@@ -61,17 +45,36 @@ function App() {
           equipment: 'The equipment used to creat this content is...'
         }, 
         {
-          src: BHRTReel,
+          src: PLMJetReel,
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
         }, 
         {
-          src: BHRTReel,
+          src: PLMGrandOpening,
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
         }],
+        images: [
+          {
+            src: PLMSkinnyShot1,
+            caption: 'Caption example',
+            purpose: 'The purpose of this content is...',
+            equipment: 'The equipment used to creat this content is...'
+          }, 
+          {
+            src: PLMSkinnyShot2,
+            caption: 'Caption example',
+            purpose: 'The purpose of this content is...',
+            equipment: 'The equipment used to creat this content is...'
+          }, 
+          {
+            src: PLMSkinnyShot2,
+            caption: 'Caption example',
+            purpose: 'The purpose of this content is...',
+            equipment: 'The equipment used to creat this content is...'
+          }],
       carousel: [
         {
           id: 1,
