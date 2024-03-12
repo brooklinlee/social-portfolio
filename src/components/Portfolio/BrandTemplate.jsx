@@ -29,6 +29,7 @@ const BrandTemplate = ({ brand }) => {
         <p>{brand.pDescriptorTwo}</p>
       </section>
       <section className='bt-content'>
+        <h3>Reels & Videos</h3>
         <div className="video">
         {brand.videos && brand.videos.map((video, index) => (
             <ContentCard
@@ -40,6 +41,7 @@ const BrandTemplate = ({ brand }) => {
             />
           ))}
         </div>
+        <h3>Images & Graphics</h3>
         <div className="images">
         {brand.images && brand.images.map((image, index) => (
             <ContentCard
@@ -51,7 +53,8 @@ const BrandTemplate = ({ brand }) => {
             />
           ))}
         </div>
-        <div className="carousel">
+        <h3>Carousel Posts</h3>
+        <div className="carousel-section">
           {brand.carousel && brand.carousel.map((carousel, index) => (
             <ContentCard
               key={index}
