@@ -119,6 +119,30 @@ function App() {
           images: [PLMSkinnyShot1, PLMSkinnyShot2]
         }
       ]
+    },
+    {
+      id: 3,
+      backgroundImageUrl: `url(${BRHeader})`,
+      name: 'Black Rock ',
+      description: 'Luxury Townhomes and Condos located in Park City, Utah',
+      cta: 'Contact Me',
+      pDescriptorOne: 'Black Rock Resort is....',
+      liOne: 'thing I did for them',
+      liTwo:'another thing',
+      liThree: 'another thing',
+      pDescriptorTwo: 'Check out content below',
+      images: [PLMSkinnyShot1],
+      video: [BHRTReel],
+      carousel: [
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        },
+        {
+          id: 1,
+          images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        }
+      ]
     }
   ]
 

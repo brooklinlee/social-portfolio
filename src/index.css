@@ -112,7 +112,7 @@ a {
 }
 
 .nav-container li {
-  margin-left: 35px;
+  margin-left: 25px;
 }
 
 .dropdown-content {
@@ -124,6 +124,13 @@ a {
   flex-direction: column;
   text-align: left;
   background-color: white;
+  opacity: 1;
+}
+
+.dropdown-ul li {
+  /* margin: 6px 0; */
+  background-color: white;
+  text-align: left;
 }
 
 .dropdown-content li {
@@ -153,6 +160,11 @@ a {
   top: 100%;
   left: 0;
   width: 400px;
+  text-align: left;
+}
+
+.dropdown-content a {
+  text-align: left;
 }
 
 .dropdown:hover .dropdown-content {
