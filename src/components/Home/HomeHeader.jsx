@@ -18,7 +18,7 @@ const HomeHeader = () => {
         <h1>Hi. I'm Brooklin.<br></br>I do Social Media.</h1>
         <p><strong>Stop struggling</strong> with managing your social media presence alone. Instead, work with a professional to <strong>optimize your social media strategy for impactful results.</strong></p>
         <div>
-          <ul>
+          <ul >
             <li><span><FontAwesomeIcon icon={faCircleCheck} /></span>Expertise in social media trends</li>
             <li><span><FontAwesomeIcon icon={faCircleCheck} /></span>Time-saving content creation</li>
             <li><span><FontAwesomeIcon icon={faCircleCheck} /></span>Enhanced audience engagement strategies</li>

@@ -5,7 +5,8 @@
 html, body {
   margin: 0;
   height: 100%;
-  background-color: #f2f4f8;
+  width: 100%;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,6 +27,7 @@ body {
   overflow: auto;
   padding-top: 100px;
   /* margin: var(--primary-margin) */
+  
 }
 
 h1, h3 { margin: 7px 0px 14px 0px; }
@@ -67,8 +69,6 @@ a {
   font-weight: 600;
   text-decoration: none;
 }
-
-
 
 /* navbar */
 .navLi {
@@ -202,4 +202,12 @@ a {
 
 .heading-secondary {
   color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+  h1,
+  .heading-primary,
+  .heading-secondary {
+    font-size: 35px;
+  }
 }
