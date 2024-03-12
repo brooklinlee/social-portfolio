@@ -61,7 +61,6 @@ p, li {
   line-height: 28px;
   text-align: justify;
   font-family: var(--secondary-font);
-  /* text-align-last: center; */
 }
 
 a {
@@ -209,5 +208,8 @@ a {
   .heading-primary,
   .heading-secondary {
     font-size: 35px;
+  }
+  p, li {
+    font-size: 16px;
   }
 }

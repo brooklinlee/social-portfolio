@@ -1,5 +1,4 @@
 .home-content {
-  /* height: 768px; */
   display: flex;
   flex-direction: column;
   position: relative;
@@ -8,7 +7,6 @@
 .home-content img {
   margin: auto;
   width: 75%;
-  /* z-index: 1; */
   padding-bottom: 30px;
 }
 
@@ -22,4 +20,13 @@
   width: 100vw;
   height: 400px;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .home-content  h1{
+    padding-top: 0;
+  }
+  .half-circle {
+    height: 180px;
+  }
 }
