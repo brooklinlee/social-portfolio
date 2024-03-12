@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 // components
 import LogoIndex from './LogoIndex'
 
@@ -15,7 +17,9 @@ const HomeSkills = () => {
           <LogoIndex />
         </div>
         <p>I am proficient in a diverse array of skills and technologies essential for both social media management and basic front-end software engineering. My expertise extends to crafting and refining content from conceptualization to post-analysis, including optimizing posts and landing pages based on analytics data. I excel in developing a cohesive brand presence that resonates with audiences across various platforms, ensuring consistency and engagement.</p>
-        <h3 className="heading-primary">Past & Present Clients</h3>
+        {/* <div className='button-div'>
+            <button className='blue-button'>Check out My Portfolio!</button>
+        </div> */}
       </main>
     </>
   )
