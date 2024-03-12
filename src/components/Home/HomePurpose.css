@@ -1,6 +1,5 @@
 .home-purpose {
   position: relative;
-  /* height: 768px; */
   height: 870px;
 }
 
@@ -42,8 +41,7 @@
 .icon-circle {
   width: 160px;
   height: 160px;
-  /* background-color: var(--primary-color); */
-  background-image: var(--primary-gradient);
+    background-image: var(--primary-gradient);
   border-radius: 50%;
   position: relative;
 }
@@ -73,7 +71,44 @@
 }
 
 @media screen and (max-width: 768px) {
+  .home-purpose {
+    height: auto;
+  }
+  
   .half-circle-two {
     height: 180px;
+  }
+
+  .icon-section {
+    position: relative;
+    flex-wrap: wrap;
+    top: 0;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .icon-circle {
+    height: 80px;
+    width: 80px;
+  }
+
+  .icon-circle span {
+    font-size: 38px;
+  }
+
+  .icon {
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .icon h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .icon p {
+    font-size: 16px;
+    padding: 0 4px;
+    margin: 2px auto;
   }
 }

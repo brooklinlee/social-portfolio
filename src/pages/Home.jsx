@@ -3,7 +3,7 @@ import HomeHeader from "../components/Home/HomeHeader"
 import HomeContent from "../components/Home/HomeContent"
 import HomePurpose from "../components/Home/HomePurpose"
 import HomeSkills from "../components/Home/HomeSkills"
-import HomeClients from "../components/Home/HomeClients"
+// import HomeClients from "../components/Home/HomeClients"
 
 const Home = () => {
   return (  
@@ -12,7 +12,7 @@ const Home = () => {
     <HomeContent />
     <HomePurpose />
     <HomeSkills />
-    <HomeClients />
+    {/* <HomeClients /> */}
     </>
   )
 }
