@@ -29,9 +29,11 @@ const NavBar = ({ brands }) => {
             <li className="dropdown">
               <button className="dropbtn " >Portfolio</button>
               <div className="dropdown-content">
-                {brands.map(brand => (
-                  <li key={brand.id} className="navLi"><NavLink to={`/portfolio/${brand.id}`} >{brand.name}</NavLink></li>
-                ))}
+                <ul className="dropdown-ul">
+                  {brands.map(brand => (
+                    <li key={brand.id} className="navLi"><NavLink to={`/portfolio/${brand.id}`} >{brand.name}</NavLink></li>
+                  ))}
+                </ul>
               </div>
             </li>
           </ul>
