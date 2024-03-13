@@ -40,7 +40,7 @@ function App() {
       videos: [
         {
           src: BHRTReel,
-          caption: 'Caption example',
+          caption: <p>What happens at your Hormone Replacement Therapy appointment? 🤔💭<br></br>This is line two</p>,
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
         }, 

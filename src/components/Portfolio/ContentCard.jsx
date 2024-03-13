@@ -5,7 +5,7 @@ const ContentCard = ({ content, caption, purpose, equipment }) => {
     <div className="content-card">
       <div className="content">{ content }</div>
       <div className="info">
-        <p><em>{ caption }</em></p>
+        { caption }
         <p><strong>Purpose:</strong> { purpose }</p>
         <p><strong>Equipment Used:</strong> { equipment }</p>
       </div>
