@@ -10,6 +10,7 @@
   margin: 20px auto;
   outline: 1px solid var(--primary-color);
   text-align: left;
+  height: fit-content;
 }
 
 .content {
