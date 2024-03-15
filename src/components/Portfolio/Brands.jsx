@@ -1,8 +1,59 @@
-// assets
+// images
+// headers
 import PLMHeader from '../../assets/images/PLMHeader.svg'
 import BRHeader from '../../assets/images/BRHeader.svg'
+// Pür Life
+import PLMSqr1 from '../../assets/images/PLMSqr1.svg'
+import PLMSqr2 from '../../assets/images/PLMSqr2.svg'
+import PLMCarousel1A from '../../assets/images/PLMCarousel1A.svg'
+import PLMCarousel1B from '../../assets/images/PLMCarousel1B.svg'
+
 import PLMSkinnyShot1 from '../../assets/images/PLMSkinnyShot1.svg'
 import PLMSkinnyShot2 from '../../assets/images/PLMSkinnyShot2.svg'
+// iTOVi
+import iTOViSqr1 from '../../assets/images/iTOViSqr1.svg'
+import iTOViSqr2 from '../../assets/images/iTOViSqr2.svg'
+import iTOViSqr3 from '../../assets/images/iTOViSqr3.svg'
+import iTOViSqr4 from '../../assets/images/iTOViSqr4.svg'
+import iTOViSqr5 from '../../assets/images/iTOViSqr5.svg'
+import iTOViSqr6 from '../../assets/images/iTOViSqr6.svg'
+import iTOViSqr7 from '../../assets/images/iTOViSqr7.svg'
+import iTOViSqr8 from '../../assets/images/iTOViSqr8.svg'
+import iTOViSqr9 from '../../assets/images/iTOViSqr9.svg'
+import iTOViSqr10 from '../../assets/images/iTOViSqr10.svg'
+import iTOViSqr11 from '../../assets/images/iTOViSqr11.svg'
+import iTOViCarousel1A from '../../assets/images/iTOViCarousel1A.svg'
+import iTOViCarousel1B from '../../assets/images/iTOViCarousel1B.svg'
+import iTOViCarousel1C from '../../assets/images/iTOViCarousel1C.svg'
+import iTOViCarousel2A from '../../assets/images/iTOViCarousel2A.svg'
+import iTOViCarousel2B from '../../assets/images/iTOViCarousel2B.svg'
+import iTOViCarousel2C from '../../assets/images/iTOViCarousel2C.svg'
+import iTOViCarousel2D from '../../assets/images/iTOViCarousel2D.svg'
+import iTOViCarousel3A from '../../assets/images/iTOViCarousel3A.svg'
+import iTOViCarousel3B from '../../assets/images/iTOViCarousel3B.svg'
+import iTOViCarousel3C from '../../assets/images/iTOViCarousel3C.svg'
+import iTOViCarousel3D from '../../assets/images/iTOViCarousel3D.svg'
+import iTOViCarousel3E from '../../assets/images/iTOViCarousel3E.svg'
+
+// Black Rock
+
+
+// Olive
+import OliveSqr1 from '../../assets/images/OliveSqr1.svg'
+
+// Oil Stuff
+import OilStuffSqr1 from '../../assets/images/OilStuffSqr1.svg'
+import OilStuffSqr2 from '../../assets/images/OilStuffSqr2.svg'
+import OilStuffSqr3 from '../../assets/images/OilStuffSqr3.svg'
+import OilStuffSqr4 from '../../assets/images/OilStuffSqr4.svg'
+import OilStuffSqr5 from '../../assets/images/OilStuffSqr5.svg'
+import OilStuffSqr6 from '../../assets/images/OilStuffSqr6.svg'
+import OilStuffSqr7 from '../../assets/images/OilStuffSqr7.svg'
+
+// Ziva
+import ZivaSqr1 from '../../assets/images/ZivaSqr1.svg'
+import ZivaSqr2 from '../../assets/images/ZivaSqr2.svg'
+import ZivaSqr3 from '../../assets/images/ZivaSqr3.svg'
 
 // videos
 import BHRTReel from '../../assets/videos/BHRTReel.mp4'
@@ -43,41 +94,22 @@ const brands = [
       }],
       images: [
         {
-          src: PLMSkinnyShot1,
+          src: PLMSqr1,
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
         }, 
         {
-          src: PLMSkinnyShot2,
+          src: PLMSqr2,
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
-        }, 
-        {
-          src: PLMSkinnyShot2,
-          caption: 'Caption example',
-          purpose: 'The purpose of this content is...',
-          equipment: 'The equipment used to creat this content is...'
-        }],
+        }
+      ],
     carousel: [
       {
         id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2],
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
-      },
-      {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2],
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
-      },
-      {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2],
+        images: [PLMCarousel1A, PLMCarousel1B],
         caption: 'Caption example',
         purpose: 'The purpose of this content is...',
         equipment: 'The equipment used to creat this content is...'
@@ -86,6 +118,101 @@ const brands = [
   },
   {
     id: 2,
+    backgroundImageUrl: `url(${BRHeader})`,
+    name: 'iTOVi',
+    description: 'Scanner for Essential Oils',
+    cta: 'Contact Me',
+    pDescriptorOne: 'iTOVi is....',
+    liOne: 'thing I did for them',
+    liTwo:'another thing',
+    liThree: 'another thing',
+    pDescriptorTwo: 'Check out content below',
+    images: [
+      {
+        src: iTOViSqr1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr2,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr3,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr4,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr5,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr6,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr7,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr8,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr9,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr10,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: iTOViSqr11,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+    ],
+    video: [BHRTReel],
+    carousel: [
+      {
+        id: 1,
+        images: [iTOViCarousel1A, iTOViCarousel1B, iTOViCarousel1C]
+      },
+      {
+        id: 2,
+        images: [iTOViCarousel2A, iTOViCarousel2B, iTOViCarousel2C, iTOViCarousel2D]
+      },
+      {
+        id: 2,
+        images: [iTOViCarousel3A, iTOViCarousel3B, iTOViCarousel3C, iTOViCarousel3D, iTOViCarousel3E]
+      },
+    ]
+  },
+  {
+    id: 3,
     backgroundImageUrl: `url(${BRHeader})`,
     name: 'Black Rock Mountain Resort',
     description: 'Luxury Townhomes and Condos located in Park City, Utah',
@@ -109,9 +236,9 @@ const brands = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     backgroundImageUrl: `url(${BRHeader})`,
-    name: 'Black Rock ',
+    name: 'Olive Dog Salons',
     description: 'Luxury Townhomes and Condos located in Park City, Utah',
     cta: 'Contact Me',
     pDescriptorOne: 'Black Rock Resort is....',
@@ -119,17 +246,109 @@ const brands = [
     liTwo:'another thing',
     liThree: 'another thing',
     pDescriptorTwo: 'Check out content below',
-    images: [PLMSkinnyShot1],
-    video: [BHRTReel],
-    carousel: [
+    images: [
       {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        src: OliveSqr1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+    ],
+    video: [BHRTReel],
+    carousel: []
+  }, 
+  {
+    id: 5,
+    backgroundImageUrl: `url(${BRHeader})`,
+    name: 'The Oil Stuff',
+    description: 'Luxury Townhomes and Condos located in Park City, Utah',
+    cta: 'Contact Me',
+    pDescriptorOne: 'Black Rock Resort is....',
+    liOne: 'thing I did for them',
+    liTwo:'another thing',
+    liThree: 'another thing',
+    pDescriptorTwo: 'Check out content below',
+    images: [
+      {
+        src: OilStuffSqr1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
       },
       {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
-      }
+        src: OilStuffSqr2,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OilStuffSqr3,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OilStuffSqr4,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OilStuffSqr5,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OilStuffSqr6,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OilStuffSqr7,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+    ],
+    video: [],
+    carousel: []
+  },
+  {
+    id: 6,
+    backgroundImageUrl: `url(${BRHeader})`,
+    name: 'Ziva Medical',
+    description: 'Luxury Townhomes and Condos located in Park City, Utah',
+    cta: 'Contact Me',
+    pDescriptorOne: 'Black Rock Resort is....',
+    liOne: 'thing I did for them',
+    liTwo:'another thing',
+    liThree: 'another thing',
+    pDescriptorTwo: 'Check out content below',
+    images: [
+      {
+        src: ZivaSqr1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: ZivaSqr2,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: ZivaSqr3,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+    ],
+    video: [BHRTReel],
+    carousel: [
+      
     ]
   }
 ]
