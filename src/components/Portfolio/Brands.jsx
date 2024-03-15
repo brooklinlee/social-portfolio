@@ -38,7 +38,15 @@ import iTOViCarousel3D from '../../assets/images/iTOViCarousel3D.svg'
 import iTOViCarousel3E from '../../assets/images/iTOViCarousel3E.svg'
 
 // Black Rock
-
+import BRLS1 from '../../assets/images/BRLS1.svg'
+import BRCarousel1A from '../../assets/images/BRCarousel1A.svg'
+import BRCarousel1B from '../../assets/images/BRCarousel1B.svg'
+import BRCarousel2A from '../../assets/images/BRCarousel2A.svg'
+import BRCarousel2B from '../../assets/images/BRCarousel2B.svg'
+import BRCarousel3A from '../../assets/images/BRCarousel3A.svg'
+import BRCarousel3B from '../../assets/images/BRCarousel3B.svg'
+import BRCarousel3C from '../../assets/images/BRCarousel3C.svg'
+import BRCarousel3D from '../../assets/images/BRCarousel3D.svg'
 
 // Olive
 import OliveSqr1 from '../../assets/images/OliveSqr1.svg'
@@ -241,16 +249,36 @@ const brands = [
     liTwo:'another thing',
     liThree: 'another thing',
     pDescriptorTwo: 'Check out content below',
-    images: [PLMSkinnyShot1],
+    images: [
+      {
+        src: BRLS1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+    ],
     video: [BHRTReel],
     carousel: [
       {
         id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        images: [BRCarousel1A, BRCarousel1B],
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
       },
       {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
+        id: 2,
+        images: [BRCarousel2A, BRCarousel2B],
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        id: 3,
+        images: [BRCarousel3A, BRCarousel3B, BRCarousel3C, BRCarousel3D],
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
       }
     ]
   },
