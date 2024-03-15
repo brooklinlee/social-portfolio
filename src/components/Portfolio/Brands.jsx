@@ -7,6 +7,8 @@ import PLMSqr1 from '../../assets/images/PLMSqr1.svg'
 import PLMSqr2 from '../../assets/images/PLMSqr2.svg'
 import PLMCarousel1A from '../../assets/images/PLMCarousel1A.svg'
 import PLMCarousel1B from '../../assets/images/PLMCarousel1B.svg'
+import PLMPortrait1 from '../../assets/images/PLMPortrait1.svg'
+import PLMPortrait2 from '../../assets/images/PLMPortrait2.svg'
 
 import PLMSkinnyShot1 from '../../assets/images/PLMSkinnyShot1.svg'
 import PLMSkinnyShot2 from '../../assets/images/PLMSkinnyShot2.svg'
@@ -40,6 +42,11 @@ import iTOViCarousel3E from '../../assets/images/iTOViCarousel3E.svg'
 
 // Olive
 import OliveSqr1 from '../../assets/images/OliveSqr1.svg'
+import OlivePortrait1 from '../../assets/images/OlivePortrait1.svg'
+import OlivePortrait2 from '../../assets/images/OlivePortrait2.svg'
+import OlivePortrait3 from '../../assets/images/OlivePortrait3.svg'
+import OlivePortrait4 from '../../assets/images/OlivePortrait4.svg'
+import OlivePortrait5 from '../../assets/images/OlivePortrait5.svg'
 
 // Oil Stuff
 import OilStuffSqr1 from '../../assets/images/OilStuffSqr1.svg'
@@ -100,7 +107,19 @@ const brands = [
           equipment: 'The equipment used to creat this content is...'
         }, 
         {
+          src: PLMPortrait1,
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
+        }, 
+        {
           src: PLMSqr2,
+          caption: 'Caption example',
+          purpose: 'The purpose of this content is...',
+          equipment: 'The equipment used to creat this content is...'
+        },
+        {
+          src: PLMPortrait2,
           caption: 'Caption example',
           purpose: 'The purpose of this content is...',
           equipment: 'The equipment used to creat this content is...'
@@ -248,7 +267,37 @@ const brands = [
     pDescriptorTwo: 'Check out content below',
     images: [
       {
+        src: OlivePortrait1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
         src: OliveSqr1,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OlivePortrait2,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OlivePortrait3,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OlivePortrait4,
+        caption: 'Caption example',
+        purpose: 'The purpose of this content is...',
+        equipment: 'The equipment used to creat this content is...'
+      },
+      {
+        src: OlivePortrait5,
         caption: 'Caption example',
         purpose: 'The purpose of this content is...',
         equipment: 'The equipment used to creat this content is...'
@@ -348,7 +397,14 @@ const brands = [
     ],
     video: [BHRTReel],
     carousel: [
-      
+      {
+        id: 1,
+        images: [PLMSkinnyShot1, PLMSkinnyShot2]
+      },
+      {
+        id: 1,
+        images: [PLMSkinnyShot1, PLMSkinnyShot2]
+      }
     ]
   }
 ]
