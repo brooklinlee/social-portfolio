@@ -1,7 +1,12 @@
 // images
 // headers
 import PLMHeader from '../../assets/images/PLMHeader.svg'
+import iTOVIHeader from '../../assets/images/iTOVIHeader.svg'
 import BRHeader from '../../assets/images/BRHeader.svg'
+import OliveHeader from '../../assets/images/OliveHeader.svg'
+import OilStuffHeader from '../../assets/images/OilStuffHeader.svg'
+import ZivaHeader from '../../assets/images/ZivaHeader.svg'
+
 // Pür Life
 import PLMSqr1 from '../../assets/images/PLMSqr1.svg'
 import PLMSqr2 from '../../assets/images/PLMSqr2.svg'
@@ -10,8 +15,6 @@ import PLMCarousel1B from '../../assets/images/PLMCarousel1B.svg'
 import PLMPortrait1 from '../../assets/images/PLMPortrait1.svg'
 import PLMPortrait2 from '../../assets/images/PLMPortrait2.svg'
 
-import PLMSkinnyShot1 from '../../assets/images/PLMSkinnyShot1.svg'
-import PLMSkinnyShot2 from '../../assets/images/PLMSkinnyShot2.svg'
 // iTOVi
 import iTOViSqr1 from '../../assets/images/iTOViSqr1.svg'
 import iTOViSqr2 from '../../assets/images/iTOViSqr2.svg'
@@ -145,7 +148,7 @@ const brands = [
   },
   {
     id: 2,
-    backgroundImageUrl: `url(${BRHeader})`,
+    backgroundImageUrl: `url(${iTOVIHeader})`,
     name: 'iTOVi',
     description: 'Scanner for Essential Oils',
     cta: 'Contact Me',
@@ -284,7 +287,7 @@ const brands = [
   },
   {
     id: 4,
-    backgroundImageUrl: `url(${BRHeader})`,
+    backgroundImageUrl: `url(${OliveHeader})`,
     name: 'Olive Dog Salons',
     description: 'Luxury Townhomes and Condos located in Park City, Utah',
     cta: 'Contact Me',
@@ -336,8 +339,8 @@ const brands = [
   }, 
   {
     id: 5,
-    backgroundImageUrl: `url(${BRHeader})`,
-    name: 'The Oil Stuff',
+    backgroundImageUrl: `url(${OilStuffHeader})`,
+    name: 'Oil Stuff',
     description: 'Luxury Townhomes and Condos located in Park City, Utah',
     cta: 'Contact Me',
     pDescriptorOne: 'Black Rock Resort is....',
@@ -394,7 +397,7 @@ const brands = [
   },
   {
     id: 6,
-    backgroundImageUrl: `url(${BRHeader})`,
+    backgroundImageUrl: `url(${ZivaHeader})`,
     name: 'Ziva Medical',
     description: 'Luxury Townhomes and Condos located in Park City, Utah',
     cta: 'Contact Me',
@@ -424,16 +427,7 @@ const brands = [
       },
     ],
     video: [BHRTReel],
-    carousel: [
-      {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
-      },
-      {
-        id: 1,
-        images: [PLMSkinnyShot1, PLMSkinnyShot2]
-      }
-    ]
+    carousel: []
   }
 ]
 
