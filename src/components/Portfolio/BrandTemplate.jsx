@@ -58,13 +58,6 @@ const BrandTemplate = ({ brand }) => {
                   equipment={image.equipment}
                 />
               ))}
-            </div>
-          </div>
-        )}
-        {brand.carousel && brand.carousel.length > 0 && (
-          <div className="content-section">
-            <h3 className='heading-primary'>Carousel Posts</h3>
-            <div className="carousel-section">
               {brand.carousel.map((carousel, index) => (
                 <ContentCard
                   key={index}
@@ -77,6 +70,22 @@ const BrandTemplate = ({ brand }) => {
             </div>
           </div>
         )}
+        {/* {brand.carousel && brand.carousel.length > 0 && (
+          <div className="content-section"> */}
+            {/* <h3 className='heading-primary'>Carousel Posts</h3> */}
+            {/* <div className="carousel-section">
+              {brand.carousel.map((carousel, index) => (
+                <ContentCard
+                  key={index}
+                  content={<Carousel images={carousel.images} />}
+                  caption={carousel.caption}
+                  purpose={carousel.purpose}
+                  equipment={carousel.equipment}
+                />
+              ))}
+            </div>
+          </div>
+        )} */}
       </section>
     </main>
   )
