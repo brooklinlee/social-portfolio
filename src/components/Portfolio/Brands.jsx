@@ -211,7 +211,7 @@ const brands = [
       {
         src: iTOViSqr2,
         caption: <p className='content-caption'>ORANGE you glad you've got some citrus essential oils? 🍊 😉<br></br>
-        Don't forget to SAVE these sunny blends to try out later! 👇 👇 👇<br></br>Liquid Sunshine 🌞<br></br>3 drops grapefruit<br></br>3 drops orange<br></br>2 drops bergamot<br></br>2 drops lemon<br></br>Orange Delight 🍊<br></br>3 drops orange<br></br>2 drops rosemary<br></br>2 drops spearmint<br></br>Courageous 💪<br></br>3 drops bergamot<br></br>3 drops tangerine<br></br>2 drops basil<br></br>2 drops clary sage<br></br>What are your favorite citrusy combinations? 🤔 💭</p>,
+        Don't forget to SAVE these sunny blends to try out later! 👇 👇 👇<br></br>Liquid Sunshine 🌞: 3 drops grapefruit, 3 drops orange, 2 drops bergamot, 2 drops lemon<br></br>Orange Delight 🍊: 3 drops orange, 2 drops rosemary, 2 drops spearmint<br></br>Courageous 💪: 3 drops bergamot, 3 drops tangerine, 2 drops basil, 2 drops clary sage<br></br>What are your favorite citrusy combinations? 🤔 💭</p>,
         purpose: 'The purpose of this content is...',
         equipment: 'The equipment used to creat this content is...'
       },

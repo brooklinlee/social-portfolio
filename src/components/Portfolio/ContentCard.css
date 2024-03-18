@@ -1,14 +1,11 @@
 .content-card {
-  /* border: 1px solid red; */
   background-color: white;
-  padding: 10px;
-  width: 500px;
+  width: 400px;
+  margin: 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px auto;
-  outline: 1px solid var(--primary-color);
   text-align: left;
   height: fit-content;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -21,7 +18,16 @@
 
 .content {
   align-items: center;
-  
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.content img,
+.content video {
+  max-width: 100%; 
+  align-items: center;
+  border-radius: 4px;
 }
 
 .content > p {
@@ -30,15 +36,13 @@
 
 .content  img, video{
   width: 400px;
-  padding: 10px;
-  margin: 0 auto;
   align-items: center;
+  border-radius: 4px;
 }
 
 .content-caption {
   font-size: 14px;
   text-align: left;
-  width: 440px;
   word-wrap: break-word;
   margin: 0 auto;
 }
@@ -47,6 +51,11 @@
   display: block;
   content: "";
   margin-top: 0.5em;
+} 
+
+.info {
+  width: 100%;
+  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {

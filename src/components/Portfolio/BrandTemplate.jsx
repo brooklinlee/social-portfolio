@@ -31,7 +31,7 @@ const BrandTemplate = ({ brand }) => {
       <section className='bt-content'>
         {brand.videos && brand.videos.length > 0 && (
           <div className="content-section">
-            <h3 className='heading-secondary'>Reels & Videos</h3>
+            <h3 className='heading-primary'>Reels & Videos</h3>
             <div className="video">
               {brand.videos.map((video, index) => (
                 <ContentCard
@@ -47,7 +47,7 @@ const BrandTemplate = ({ brand }) => {
         )}
         {brand.images && brand.images.length > 0 && (
           <div className="content-section">
-            <h3 className='heading-secondary'>Images & Graphics</h3>
+            <h3 className='heading-primary'>Images & Graphics</h3>
             <div className="images">
               {brand.images.map((image, index) => (
                 <ContentCard
@@ -70,22 +70,6 @@ const BrandTemplate = ({ brand }) => {
             </div>
           </div>
         )}
-        {/* {brand.carousel && brand.carousel.length > 0 && (
-          <div className="content-section"> */}
-            {/* <h3 className='heading-primary'>Carousel Posts</h3> */}
-            {/* <div className="carousel-section">
-              {brand.carousel.map((carousel, index) => (
-                <ContentCard
-                  key={index}
-                  content={<Carousel images={carousel.images} />}
-                  caption={carousel.caption}
-                  purpose={carousel.purpose}
-                  equipment={carousel.equipment}
-                />
-              ))}
-            </div>
-          </div>
-        )} */}
       </section>
     </main>
   )
