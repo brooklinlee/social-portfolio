@@ -69,6 +69,11 @@ import OilStuffSqr4 from '../../assets/images/OilStuffSqr4.svg'
 import OilStuffSqr5 from '../../assets/images/OilStuffSqr5.svg'
 import OilStuffSqr6 from '../../assets/images/OilStuffSqr6.svg'
 import OilStuffSqr7 from '../../assets/images/OilStuffSqr7.svg'
+import OilStuffSqr8 from '../../assets/images/OilStuffSqr8.svg'
+import OilStuffSqr9 from '../../assets/images/OilStuffSqr9.svg'
+import OilStuffSqr10 from '../../assets/images/OilStuffSqr10.svg'
+import OilStuffSqr11 from '../../assets/images/OilStuffSqr11.svg'
+import OilStuffSqr12 from '../../assets/images/OilStuffSqr12.svg'
 
 // Ziva
 import ZivaSqr1 from '../../assets/images/ZivaSqr1.svg'
@@ -430,45 +435,75 @@ const brands = [
     images: [
       {
         src: OilStuffSqr1,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">There's no better way to let someone know how essential oils can change their life than by giving them some to use!<br></br>That's why we love carrying sample sized oil bottles with us on the go 🏃‍♀️ Get yours today with a dropper or roller top online at www.oilstuff.com.</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr2,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">There's no such thing as too many diffusers 😍</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr3,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Need a few more roller bottles? We've got you covered!! Get all of your favorite essential oils accessories today at www.oilstuff.com</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr4,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Why we use essential oils 👆 👆 👆 Who else can relate? 🙋‍♀️</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr5,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Who else uses Citronella Oil ALL ☀️ SUMMER ☀️ LONG ☀️?? We do!<br></br>Citronella oil is perfect for helping to keep the pesky summer insects at bay! Diffuse Citronella outdoors, or apply to your skin with a carrier oil to keep mosquitoes away 🦟 🙅‍♀️<br></br>Leave us a 💚 in the comments below if you love using Citronella Oil!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr6,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Guilty as charged 😂 What is the essential oil or blend that you use so often it makes all of your other oils jealous? Tell us in the comments below! 👇 👇 👇</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: OilStuffSqr7,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Mondays are the best days for Tropical Diffuser blends! Here's one of our new favorites, Tropical Vacay 🏝<br></br>3 drops bergamot<br></br>3 drops lavender<br></br>1 drop sandalwood<br></br>1 drop lemon<br></br>We've been diffusing it all morning! Don't forget to SAVE this post so you can try it too 🌊</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: OilStuffSqr8,
+        caption: <p className="content-caption">The 'Everyday Essentials' Collection is perfect to help you get the most out of your essential oils, and make a great gift for those who are new to the essential oils world!<br></br>Which would you choose: 1, 2, or 3? Tell us in the comments below!👇📚<br></br>1. Everyday Essentials: Carrier Oils 💦<br></br>2. Everyday Essentials: A-Z Guide 🤓<br></br>3. Everyday Essentials: Diffuser Recipes 📖</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: OilStuffSqr9,
+        caption: <p className="content-caption">What are your favorite 'Go Time' essential oils? Tell us in the comments below! 👇 👇 👇</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: OilStuffSqr10,
+        caption: <p className="content-caption">We can’t decide! Which one of these diffuser necklaces do you love more… 1 or 2?? Tell us in the comments below! 👇👇👇</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: OilStuffSqr11,
+        caption: <p className="content-caption">What is your favorite kind of Amber Glass Bottle for your essential oils? Let us know in the comments below! 👇 👇 👇</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: OilStuffSqr12,
+        caption: <p className="content-caption">We're not kidding when we say that we take one of these with us EVERYWHERE WE GO 🚗 🛩 🚂 🚣‍♀️<br></br>👉 The Macaroon Sample Vial Cases carry eight sample sized drams, which is perfect for us throughout the day!<br></br>Double-tap if you love taking your essential oils with you on the go!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
     ],
     video: [],
