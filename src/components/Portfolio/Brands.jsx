@@ -79,6 +79,12 @@ import OilStuffSqr12 from '../../assets/images/OilStuffSqr12.svg'
 import ZivaSqr1 from '../../assets/images/ZivaSqr1.svg'
 import ZivaSqr2 from '../../assets/images/ZivaSqr2.svg'
 import ZivaSqr3 from '../../assets/images/ZivaSqr3.svg'
+import ZivaSqr4 from '../../assets/images/ZivaSqr4.svg'
+import ZivaSqr5 from '../../assets/images/ZivaSqr5.svg'
+import ZivaSqr6 from '../../assets/images/ZivaSqr6.svg'
+import ZivaSqr7 from '../../assets/images/ZivaSqr7.svg'
+import ZivaSqr8 from '../../assets/images/ZivaSqr8.svg'
+import ZivaSqr9 from '../../assets/images/ZivaSqr9.svg'
 
 // videos
 import BHRTReel from '../../assets/videos/BHRTReel.mp4'
@@ -523,21 +529,57 @@ const brands = [
     images: [
       {
         src: ZivaSqr1,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">If you suffer from women's urinary incontinence let us help you! Schedule your free consultation today at www.zivautah.com.</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: ZivaSqr2,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">ZIVA offers a new solution for women’s health!<br></br>Our clinically-proven, non-invasive treatment restores intimate health with just one treatment!<br></br>What is ZIVA? A 60-minute, in-office appointment, where one of our trained women’s health professionals administers the Viveve® treatment to stimulate natural collagen production, allowing your body to naturally rebuild and strengthen its tissue, leading to no more leaks!<br></br>Schedule your free consultation today at www.zivautah.com!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
       {
         src: ZivaSqr3,
-        caption: 'Caption example',
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Did you know that vaginal dryness occurs in women of all ages, but becomes more common after menopause? It is estimated that 90% of women with dryness don't seek treatment of their symptoms.<br></br>Don't let dryness stop you from turning up the heat with your partner this season! Schedule a free consultation to learn how Ziva can change your intimate health today.</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr4,
+        caption: <p className="content-caption">Women are full of strength ✨💖</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr5,
+        caption: <p className="content-caption">Give yourself the gift that keeps on giving with vaginal rejuvenation 💖 Reach out to us today for your free consultation at www.zivautah.com!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr6,
+        caption: <p className="content-caption">Why does it always happen like this?? 🚗 🚙 😂<br></br>Tag a friend who would LOL at this in the comments below!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr7,
+        caption: <p className="content-caption">If your bladder leaks after pregnancy, you're not the only one! This is incredibly normal, and studies have found that 1 in 3 women will experience some level of urinary incontinence.<br></br>Let's destigmatize bodies after babies! 👶</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr8,
+        caption: <p className="content-caption">Find freedom in your everyday life by treating incontinence with Ziva 💖 You deserve being able to enjoy the moments that matter without stress of leaking!</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
+      },
+      {
+        src: ZivaSqr9,
+        caption: <p className="content-caption">Reclaim your life from urinary stress incontinence and improve your sexual arousal through the Viveve vaginal rejuvenation treatment 💖</p>,
+        purpose: <p className="content-purpose"></p>,
+        equipment: <p className="content-equipment"></p>
       },
     ],
     video: [BHRTReel],
