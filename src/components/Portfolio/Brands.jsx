@@ -170,7 +170,7 @@ const brands = [
           src: PLMSqr2,
           caption: <p className='content-caption'>Have you ever had a full-body Menla scan? 🤔<br></br>
           A full-body Menla scan employs advanced imaging technologies like MRI, CT, and PET to provide detailed 3D images, enabling precise early detection of various medical conditions. The benefits include:<br></br>Early identification of abnormalities<br></br>Enhanced diagnostic accuracy<br></br>Tailored and timely treatment plans<br></br>An in-depth look at your body's overall functionality and wellness<br></br>When you visit Pür Life Medical - Cottonwood we love offering a Menla Scan to clients to help you get a snapshot of your wellness over time!<br></br>Interested in getting a Menla Scan with your treatment? Ask our team about it today!</p>,
-          purpose: <p className="content-purpose">Showcase the Menla Scan, which is a service that is offered to almost anyone who visits the clinic to asses their wellness and what services may benefit them at their visit.</p>,
+          purpose: <p className="content-purpose">Showcase the Menla Scan, which is a service that is offered to almost anyone who visits the clinic to assess their wellness and what services may benefit them at their visit.</p>,
           equipment: <p className="content-equipment">Canon EOS M50, Lightroom</p>
         },
         {
@@ -205,95 +205,96 @@ const brands = [
       {
         src: iTOViSqr1,
         caption: <p className='content-caption'>Vote for your favorite one☝️ in the comments below!<br></br>🌟 Starry Night<br></br>💙 iTOVi Blue Silicone Sleeve<br></br>🌼 Aqua Floral</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">Showcase new accessories available (the silicone sleeve for the iTOVi Scanner in the middle) while engaging with the community through polls.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom, Canva</p>
       },
       {
         src: iTOViSqr2,
         caption: <p className='content-caption'>ORANGE you glad you've got some citrus essential oils? 🍊 😉<br></br>
         Don't forget to SAVE these sunny blends to try out later! 👇 👇 👇<br></br>Liquid Sunshine 🌞: 3 drops grapefruit, 3 drops orange, 2 drops bergamot, 2 drops lemon<br></br>Orange Delight 🍊: 3 drops orange, 2 drops rosemary, 2 drops spearmint<br></br>Courageous 💪: 3 drops bergamot, 3 drops tangerine, 2 drops basil, 2 drops clary sage<br></br>What are your favorite citrusy combinations? 🤔 💭</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">Diffuser blends were extremely popular with this community of essential oils users. They got a lot of saves for later, and lots of comments so it was a type of content that I created regularly.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: iTOViSqr3,
         caption: <p className='content-caption'>So you've seen the iTOVi Scanner, but what about the iTOVi Report?<br></br>
         ✨ With the iTOVi Report you are able to gain valuable insights into how you can best support your wellness with essential oils!<br></br>✨ Get a personalized report of the essential oils, blends, and supplements that your body shows the strongest response to at the time of your iTOVi Scan, backed by science!<br></br>✨ When was the last time that you had an iTOVi Scan report, and what were your top essential oils recommendations?</p>,
-       purpose: <p className="content-purpose"></p>,
-       equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">Showcase the iTOVi app and talk about the benefits of using the app.
+        </p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: iTOViSqr4,
         caption: <p className='content-caption'>We are so grateful to have such an amazing community of essential oils users here at iTOVi! Thank you for letting us be a part of your wellness 💙</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">An appreciation post for the community members who used the iTOVi Scanner.
+        </p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: iTOViSqr5,
-        caption: <p className='content-caption'>Have you been looking for a way to boost your essential oils business?<br></br>
-        👉 With the iTOVi Scanner & App, iTOVi members have access to many powerful business building tools—but until now there hasn’t been much written on how to use those tools effectively. That’s why iTOVi is proud to present: 10 Ways to Build Your Business with the iTOVi Scanner, featuring the stories of ten successful iTOVi business builders and their practices, tips, and insights into business building with an iTOVi Scanner.<br></br>Their stories will teach you how to spark people’s interest in essential oils, on-board new members, follow-up with your contacts and team members, increase the volume of your team’s monthly orders, and more!<br></br>Learn more and download this free resource by visiting our website at <a href="https://www.itovi.com/research/">https://www.itovi.com/research/</a></p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        caption: <p className='content-caption'>Have you been looking for a way to boost your essential oils business?<br></br>👉 With the iTOVi Scanner & App, iTOVi members have access to many powerful business building tools—but until now there hasn’t been much written on how to use those tools effectively. That’s why iTOVi is proud to present: 10 Ways to Build Your Business with the iTOVi Scanner, featuring the stories of ten successful iTOVi business builders and their practices, tips, and insights into business building with an iTOVi Scanner.<br></br>Their stories will teach you how to spark people’s interest in essential oils, on-board new members, follow-up with your contacts and team members, increase the volume of your team’s monthly orders, and more!<br></br>Learn more and download this free resource by visiting our website at <a href="https://www.itovi.com/research/">https://www.itovi.com/research/</a></p>,
+        purpose: <p className="content-purpose">Our copywriter and graphic designer worked together to create a few guides including this one to help iTOVi users in some way, this one specifically to help them use the iTOVi to build their EO business. This post linked to and showed off that asset.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: iTOViSqr6,
         caption: <p className='content-caption'>Find out which essential oils and supplements your body responds to best through a DNA analysis!<br></br>Your DNA is the blueprint for your body, and it largely remains the same throughout your entire lifetime. Your DNA is a big part of what makes you unique. And that means the ideal wellness plan would be unique in a way that matches your genome.<br></br>iTOVi DNA dives into your DNA, using your genetic markers to isolate the products that best match YOUR DNA, so you can build a wellness plan based on who you are!<br></br>Learn more about iTOVi DNA by visiting our website at <a href="www.dna.itovi.com">www.dna.itovi.com</a> or asking us down below! We would love to chat with you about it! 🧬<br></br>**Currently available in the US & Canada!**</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">iTOVi DNA was a new product that they had just released, so I took these images to showcase it on socials.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
       {
         src: iTOViSqr7,
         caption: <p className='content-caption'>With Mandalorian back on Disney+, we thought we'd bring back one of our favorite photo's from last year!<br></br>Wouldn't it be great if you could Scan for Ice Cream on the iTOVi Scanner? Just like essential oils, Ice Cream helps everything in life 🤷‍♀️🍦🤣<br></br>What is your favorite Ice Cream flavor?</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">Disney related content was very popular with this community, so when Mandalorian came back on Disney+ I took advantage of that to create a meme that included both our product and the popular show.</p>,
+        equipment: <p className="content-equipment">Photoshop</p>
       },
       {
         src: iTOViSqr8,
         caption: <p className='content-caption'>We love Tangerine! 🍊Besides its ability to infuse any space with a sweet, refreshing aroma this oil has a high limonene content, making it a great booster for the immune system. You can also use it to clean around the home, getting rid of any sticky and stubborn adhesive spots you may have.<br></br>What is your favorite way to use Tangerine Oil? And what do you diffuse it with? 🤔💭</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">These infographics were also popular pieces of content that we shared that got a lot of saves. The members of our community loved learning about oils, and would save and share these to their own pages.</p>,
+        equipment: <p className="content-equipment">Adobe Illustrator</p>
       },
       {
         src: iTOViSqr9,
         caption: <p className='content-caption'>Essential Oils: Explained by Disney 🏰🐭🧚🏼‍♀️💧😂. LIKE this photo and TAG A FRIEND below who you think would LOL seeing this!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is another piece of content that played into the general love of Disney that I found was popular within our community.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: iTOViSqr10,
         caption: <p className='content-caption'>Mental health is so important, and so we wanted to start a conversation!<br></br>👉 What are your favorite oils to use & activities to do when you are feeling anxious and overwhelmed?<br></br>One thing that we love is doing an iTOVi Scan & creating a custom roller blend with the top products to apply!<br></br>Let us know what you love doing down below 🤔💭</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This content was designed to showcase our product as well as start a conversation in the comments of the post on mental health.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom, Canva</p>
       },
       {
         src: iTOViSqr11,
         caption:<p className='content-caption'>Ummmm.... YES PLEASE! ✨<br></br> Which Kardashian or Jenner is repping your favorite part of being an Oiler? 👇</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This was another meme that I created that was related to EO users and was very popular.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
     ],
     video: [],
     carousel: [
       {
         id: 1,
-        images: [iTOViCarousel1A, iTOViCarousel1B, iTOViCarousel1C],
-        caption: <p className='content-caption'>✨G I F T - A W A Y✨<br></br>We’re SPRINGing into the new season by giving back to our amazing community!<br></br>Enter to win the oily gift set that dreams are made of here!<br></br>❤️From @itoviscanner : The iTOVi Pattern Clutch which holds your iTOVi Scanner, charging cord and box, and 16 sample sized oil vials!<br></br>❤️From @lukasandlexx : This super cute Black Hexagon Oil Holder that holds nineteen 5 or 15mL bottles!<br></br>❤️From @theoilstuff : The Brand New ’50 Ancient remedies: a History of Essential Oils and Where They Come From’ book by Jamie R. Mortensen, 5 ‘Everyday Essentials Beginners Guide’ books to share with your team, and a Lava Rock & Marble Diffuser Bracelet!<br></br>🌿 Here’s how to enter: 🌿<br></br>✅FOLLOW @itoviscanner @lukasandlexx & @theoilstuff<br></br>✅LIKE this post<br></br>✅SAVE it (little flag in the corner)<br></br>✅& COMMENT your favorite Spring Time essential oils down below!<br></br>👉Want to earn some extra entries? Share this post in your stories and tag more friends for ✋additional entries each!<br></br>**Giveaway ends on April 24th at 11:59pm, and the winner will be announced and contacted individually by @itoviscanner on April 26th!**</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>,
+        images: [iTOViCarousel3A, iTOViCarousel3B, iTOViCarousel3C, iTOViCarousel3D, iTOViCarousel3E],
+        caption: <p className='content-caption'>You did it! You got your brand new iTOVi Scanner, and you can't wait to share it with everyone that you know.<br></br>But.. what now?<br></br>👉 Do you need a little help understanding your new iTOVi Scan Report? We've got you covered!<br></br>Don't forget to SAVE this post to come back to later!<br></br>Got additional questions about iTOVi? Leave them down below! We would love to talk with you about them.</p>,
+        purpose: <p className="content-purpose">This infographic was created to help new iTOVi users understand their iTOVi Scans and the report that they got from it.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         id: 2,
-        images: [iTOViCarousel2A, iTOViCarousel2B, iTOViCarousel2C, iTOViCarousel2D],
-        caption: <p className='content-caption'>❌GIVEAWAY CLOSED: Winner @goldenbloomertribe ❌<br></br>✨Holiday Box GIVEAWAY✨<br></br>That's right, we want to give away the oily gift set that dreams are made of away to one lucky winner!<br></br>🤍 From @itoviscanner : Our iTOVi Patter Clutch (holds your iTOVi Scanner, charger, and 16 sample sized oils!), a Silicone Sleeve of your choice, and this cute gold diffuser!<br></br>🤍 From @thecuratedcarrot : Three Sparkle Glass Diffuser Bracelets in Rose Gold, Yellow Gold, and Silver with lava rock accents!<br></br>🤍 From @littlefawnhandmade : The cutest Pastel Handmade Rainbow Diffuser and a 'Choose Joy' vinyl sticker!<br></br>🤍 From @millennioils : An 'Ice' Bottle Holder (holds 5 essential oils bottles!) a 10mL 'Grateful' Roller Bottle & a 10mL 'Joyful' Roller Bottle, and a set of gemstone roller tops!<br></br>Here's how to enter:<br></br>✨Follow @millennioils @littlefawnhandmade @thecuratedcarrot & @itoviscanner<br></br>✨Like this post<br></br>✨Save it (little flag in the corner)<br></br>✨Tag 2 oil lovers in separate comments<br></br>✨& Comment your favorite holiday oils and blends down below!<br></br>Want to earn some extra entries? Share this post in your stories and tag more friends for ✋ additional entries each!<br></br>Giveaway ends on Friday 12/18 and the winner will be announced and contacted individually on 12/19!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        images: [iTOViCarousel1A, iTOViCarousel1B, iTOViCarousel1C],
+        caption: <p className='content-caption'>✨G I F T - A W A Y✨<br></br>We’re SPRINGing into the new season by giving back to our amazing community!<br></br>Enter to win the oily gift set that dreams are made of here!<br></br>❤️From @itoviscanner : The iTOVi Pattern Clutch which holds your iTOVi Scanner, charging cord and box, and 16 sample sized oil vials!<br></br>❤️From @lukasandlexx : This super cute Black Hexagon Oil Holder that holds nineteen 5 or 15mL bottles!<br></br>❤️From @theoilstuff : The Brand New ’50 Ancient remedies: a History of Essential Oils and Where They Come From’ book by Jamie R. Mortensen, 5 ‘Everyday Essentials Beginners Guide’ books to share with your team, and a Lava Rock & Marble Diffuser Bracelet!<br></br>🌿 Here’s how to enter: 🌿<br></br>✅FOLLOW @itoviscanner @lukasandlexx & @theoilstuff<br></br>✅LIKE this post<br></br>✅SAVE it (little flag in the corner)<br></br>✅& COMMENT your favorite Spring Time essential oils down below!<br></br>👉Want to earn some extra entries? Share this post in your stories and tag more friends for ✋additional entries each!<br></br>**Giveaway ends on April 24th at 11:59pm, and the winner will be announced and contacted individually by @itoviscanner on April 26th!**</p>,
+        purpose: <p className="content-purpose">This was a giveaway that I organized on our social media pages. I reached out to each of these small businesses that were also in the essential oils industry to set up a giveaway to reach more people who are likely to be a part of our target audience, and to give back to our community.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>,
       },
       {
         id: 3,
-        images: [iTOViCarousel3A, iTOViCarousel3B, iTOViCarousel3C, iTOViCarousel3D, iTOViCarousel3E],
-        caption: <p className='content-caption'>You did it! You got your brand new iTOVi Scanner, and you can't wait to share it with everyone that you know.<br></br>But.. what now?<br></br>👉 Do you need a little help understanding your new iTOVi Scan Report? We've got you covered!<br></br>Don't forget to SAVE this post to come back to later!<br></br>Got additional questions about iTOVi? Leave them down below! We would love to talk with you about them.</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        images: [iTOViCarousel2A, iTOViCarousel2B, iTOViCarousel2C, iTOViCarousel2D],
+        caption: <p className='content-caption'>❌GIVEAWAY CLOSED: Winner @goldenbloomertribe ❌<br></br>✨Holiday Box GIVEAWAY✨<br></br>That's right, we want to give away the oily gift set that dreams are made of away to one lucky winner!<br></br>🤍 From @itoviscanner : Our iTOVi Patter Clutch (holds your iTOVi Scanner, charger, and 16 sample sized oils!), a Silicone Sleeve of your choice, and this cute gold diffuser!<br></br>🤍 From @thecuratedcarrot : Three Sparkle Glass Diffuser Bracelets in Rose Gold, Yellow Gold, and Silver with lava rock accents!<br></br>🤍 From @littlefawnhandmade : The cutest Pastel Handmade Rainbow Diffuser and a 'Choose Joy' vinyl sticker!<br></br>🤍 From @millennioils : An 'Ice' Bottle Holder (holds 5 essential oils bottles!) a 10mL 'Grateful' Roller Bottle & a 10mL 'Joyful' Roller Bottle, and a set of gemstone roller tops!<br></br>Here's how to enter:<br></br>✨Follow @millennioils @littlefawnhandmade @thecuratedcarrot & @itoviscanner<br></br>✨Like this post<br></br>✨Save it (little flag in the corner)<br></br>✨Tag 2 oil lovers in separate comments<br></br>✨& Comment your favorite holiday oils and blends down below!<br></br>Want to earn some extra entries? Share this post in your stories and tag more friends for ✋ additional entries each!<br></br>Giveaway ends on Friday 12/18 and the winner will be announced and contacted individually on 12/19!</p>,
+        purpose: <p className="content-purpose">This was another giveaway that I organized with multiple small businesses in the essential oils industry  on social media to increase our reach and build excitement among EO users.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom, Canva</p>
       },
     ]
   },
