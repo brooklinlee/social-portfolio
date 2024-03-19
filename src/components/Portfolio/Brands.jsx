@@ -386,40 +386,40 @@ const brands = [
       {
         src: OlivePortrait1,
         caption: <p className="content-caption">Pup Cup Dreamin'✨<br></br>👉 Book your next grooming appointment with Olive Dog Salons and get your pup a free toy, treat, and pup cup with every visit!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">Each pet who came into the salon got a free treat, so this photo showcases the available treat options.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
       {
         src: OliveSqr1,
         caption: <p className="content-caption">Can we hear you say "FLUFF YEAH"? 🐶 We love how cute and fluffy Rizzo is!<br></br>Book your next grooming appointment online with us today at www.OliveDogSalons.com!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This is a before and after post of a pet who had a groom at Olive Dog Salons.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom, Canva</p>
       },
       {
         src: OlivePortrait2,
         caption: <p className="content-caption">Just a baby who hasn’t quite grown into their bow tie🥺❤️</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This is a post showcasing a haircut of a pet who got groomed at Olive Dog Salons.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
       {
         src: OlivePortrait3,
         caption: <p className="content-caption">Sometimes there are dogs that come in that we want to just keep forever because they are so cute... actually most of the time🐶❤️ Can you blame us for wanting to take this lil guy home with us?</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This is a post showcasing a haircut of a pet who got groomed at Olive Dog Salons.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
       {
         src: OlivePortrait4,
         caption: <p className="content-caption">We LOVE fluffy doodles!!<br></br>🐾Bring your doodle in for a SPAW day with us soon and get a free toy and treat with each groom!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This is a post showcasing a haircut of a pet who got groomed at Olive Dog Salons.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
     ],
     videos: [
       {
         src: OliveReel1,
         caption: <p className="content-caption">This morning we were interviewed by ABC channel 4’s “Good Things Utah” team to talk about our dog grooming salon here in Highland, UT!<br></br>✅ Click the link below to hear about our philosophy on all inclusive pricing, 1-on-1 grooming, and tips you can try at home to prepare your pup for a better grooming experience!<br></br>A huge THANK YOU to @goodthingsutah for giving us this opportunity! We loved getting to meet you all❤️<br></br><a href="https://www.abc4.com/gtu/gtu-featured-guest/local-dog-salon-makes-pet-grooming-simple/?fbclid=IwAR3RonQtAoJ2rBJ8OLjEDvFIuG1mlo0e_U5sOYqyZM76nyW_r7Dyl_gPq2o#">https://www.abc4.com/gtu/gtu-featured-guest/local-dog-salon-makes-pet-grooming-simple/?fbclid=IwAR3RonQtAoJ2rBJ8OLjEDvFIuG1mlo0e_U5sOYqyZM76nyW_r7Dyl_gPq2o#</a></p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">The business had been highlighted on ABC New’s local segment ‘Good Things Utah’, so we shared a clip of that on our social media page.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       }
     ],
     carousel: [
@@ -427,8 +427,8 @@ const brands = [
         id: 1,
         images: [OliveCarousel1A, OliveCarousel1B], 
         caption: <p className="content-caption">Swipe 👉 to see this good doggo strutting their stuff after their groom!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is a post showcasing a haircut of a pet who got groomed at Olive Dog Salons.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       }
     ]
   }, 
@@ -583,7 +583,6 @@ const brands = [
       {
         src: ZivaSqr9,
         caption: <p className="content-caption">Reclaim your life from urinary stress incontinence and improve your sexual arousal through the Viveve vaginal rejuvenation treatment 💖</p>,
-         
       },
     ],
     video: [BHRTReel],
