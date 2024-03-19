@@ -86,5 +86,13 @@
   .bt-header h2 button {
     font-size: 18px;
   }
+
+  .divided-list {
+    display: block;
+  }
+
+  .divided-list ul {
+    width: 100%;
+  }
 }
 

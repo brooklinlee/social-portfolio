@@ -97,6 +97,7 @@ a {
   position: fixed;
   align-items: center;
   padding: 2vw 5vw;
+  background-color: white;
 }
 
 .nav-container img {
