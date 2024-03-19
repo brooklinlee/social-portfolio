@@ -312,35 +312,39 @@ const brands = [
     images: [
       {
         src: BRLS1,
-        caption: <p className="content-caption">Park City truly shines during the winter ❄️✨ And you can’t beat the view that we have here at Black Rock!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        caption: <p className="content-caption">Black Rock Luxury Townhomes… AVAILABLE AND SELLING FAST!!!<br></br>
+
+        https://www.blackrockridge.com<br></br>
+        
+        Less than 10 minutes from Main Street, Park City you aren’t going to want to miss out on these gorgeous new-build townhomes that are going to be finished soon!<br></br>SUNFIRE & AURORA FLOOR PLANS AVAILABLE:4 BEDROOMS,4 BATHROOMS,2,735 - 3,049 SQFT<br></br>PLUS Save up to $15K with Seller-Paid Lender Incentives today!<br></br><a href="https://www.blackrockridge.com">https://www.blackrockridge.com</a><br></br>Send a message to our team today before these sell out!</p>,
+        purpose: <p className="content-purpose">This graphic was made to show the lender incentives that were available for those interested in purchasing one of the townhomes that were available.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: BRLS2,
         caption: <p className="content-caption">Whether it’s the easy access to world-class shopping and ski resorts, luxury living, or incredible views and dining experience, Black Rock truly is the place to be.<br></br>PLUS we’re pet friendly!🐶<br></br>Did you know that right now you have the opportunity to invest in one of our luxury condos? Contact our team today to learn how to make this hidden gem of Park City your new home!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This graphic was made to talk about some of the benefits of either purchasing or just visiting the luxury condos at Black Rock Mountain Resort.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
     ],
     videos: [
       {
         src: BRReel1,
         caption: <p className="content-caption">Park City truly shines during the winter ❄️✨ And you can’t beat the view that we have here at Black Rock!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">One of the biggest assets this resort had was its proximity to Park City slopes and the views. This post showcases those views.</p>,
+        equipment: <p className="content-equipment">iPhone, DJI Smartphone Gimbal, DJI Mini Drone, FinalCut Pro</p>
       },
       {
         src: BRReel2,
         caption: <p className='content-caption'>Talk about a view 🤩 The Chamonix feels like a dream 💕</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This video showcases one of the luxury condos available for rent and for purchase at Black Rock, the Chamonix.</p>,
+        equipment: <p className="content-equipment">iPhone, DJI Smartphone Gimbal, FinalCut Pro</p>
       },
       {
         src: BRReel3,
         caption: <p className='content-caption'>The Chamonix is one of three exclusive luxury penthouses available at Black Rock Luxury Condos.<br></br>Spanning across three floors and 4,515 sqft this spectacular unit offers a gourmet kitchen, outdoor decks with rooftop views, 5 bedrooms, 4 bathrooms, and more!<br></br>Who would you bring with you to stay in the Charmonix? Tag them in the comments below! 👇👇👇</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to create this content is...'
+        purpose: <p className="content-purpose">This video showcases another one of the luxury condos available for rent and for purchase at Black Rock.</p>,
+        equipment: <p className="content-equipment">Canon M50, FinalCut Pro</p>
       }
     ],
     carousel: [
@@ -348,22 +352,22 @@ const brands = [
         id: 1,
         images: [BRCarousel1A, BRCarousel1B],
         caption: <p className="content-caption">With stunning views of the Wasatch Mountains and easy access to world-class skiing, hiking, and other outdoor activities, Black Rock’s Townhomes are the perfect place to call home for anyone who loves the outdoors.<br></br>Each home is designed to blend seamlessly with the natural surroundings, with large windows and decks to take in the breathtaking views.<br></br>THE SUNFIRE<br></br>✅ 4 Bedrooms<br></br>✅ 4 Bathrooms<br></br>✅ 3,049 sqft</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This graphic shows the Sunfire, which was a townhome floor plan that they had available for purchase at Black Rock.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         id: 2,
         images: [BRCarousel2A, BRCarousel2B],
         caption: <p className="content-caption">Our definition of paradise involves having a delicious restaurant and bar down the hall from our luxury condominium 😍😋<br></br>What is your go-to order at the Overlook Restaurant?</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">This shows the restaurant that was inside of Black Rock Resort. I took this first photo, but the second one was shared to me in a google drive of available assets.</p>,
+        equipment: <p className="content-equipment">Canon EOSR, Lightroom</p>
       },
       {
         id: 3,
         images: [BRCarousel3A, BRCarousel3B, BRCarousel3C, BRCarousel3D],
         caption: <p className="content-caption">Some of our favorite shots from this gorgeous luxury condo ❤️<br></br>🚨CONDOS AVAILABLE NOW🚨<br></br>Contact our team to get started in making this your new home away from home!</p>,
-        purpose: 'The purpose of this content is...',
-        equipment: 'The equipment used to creat this content is...'
+        purpose: <p className="content-purpose">These were shared assets that I used to showcase one of the floorplans that was available for purchase at Black Rock.</p>,
+        equipment: <p className="content-equipment">Google Drive</p>
       }
     ]
   },
