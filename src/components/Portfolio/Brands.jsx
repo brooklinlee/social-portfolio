@@ -111,11 +111,11 @@ const brands = [
     name: 'Pür Life Medical - Cottonwood Heights',
     description: 'A Holistic Medical Clinic',
     cta: 'Contact Me',
-    pDescriptorOne: 'Pür Life Medical is....',
-    liOne: 'thing I did for them',
-    liTwo:'another thing',
-    liThree: 'another thing',
-    pDescriptorTwo: 'Check out content below',
+    pDescriptorOne: 'Pür Life Medical is a medical clinic in Cottonwood Heights, Utah, specializing in holistic healthcare. As their dedicated social media manager, I oversee all aspects of their online presence. Additionally, I crafted their entire website on WordPress, leveraging skills in WordPress, Elementor, and HostGator. From services pages to event promotion, I handle all aspects of website management and content creation. On social media, my role involves developing and executing comprehensive content strategies across Facebook, Instagram, and YouTube. This includes all copy and videos, photos, and graphics.',
+    liOne: <><li>Developed and executed comprehensive social media content strategies across Facebook, Instagram, and YouTube.</li><li>Crafted engaging copy and visuals for all digital platforms</li></>,
+    liTwo: <><li>Created and maintained their WordPress website, utilizing skills in WordPress, Elementor, and HostGator.
+    </li><li>Managed a variety of services promotion, including red light therapy, hormone replacement therapy, and more.</li></>,
+    pDescriptorTwo: 'Check out some of the content that I have created for them down below!',
     videos: [
       {
         src: PLMReel1,
@@ -135,7 +135,7 @@ const brands = [
       }, 
       {
         src: PLMReel3,
-        caption: <p className='content-caption'>Chances to WIN FREE SERVICES? Sign us up! 😍 <br></br> We are excited to present an incredible opportunity for you to win part of more than $15,000 worth of FREE SERVICES at our Grand Opening Event on Saturday, February 3rd, from 11 am to 3 pm.<br></br> Be part of the event and stand a chance to WIN:<br></br> ✅ Complete Cellulite Reduction<br></br> ✅ Exclusive Semaglutide Weight Loss Package<br></br> ✅ Hormone Blood Test with a Doctor’s Visit<br></br> ✅ Rejuvenating Lymphatic Massage Session<br></br> ✅ Invigorating Red Light Therapy Treatment Session<br></br> ✅ Revitalizing Cold Plunge and Sauna Session<br></br> ✅ Comprehensive Full-Body Menla Scan<br></br> ✅ Relaxing Compression Boot and Massage Chair Session<br></br> Visit our website for event details:<br></br> 💻 <a href="https://purlifecottonwood.com/grand-opening-event/">purlifecottonwood.com/grand-opening-event/</a><br></br> And guess what? It gets even better! By PRE-REGISTERING for the Grand Opening Event using the link below or in our bio, you’ll earn EXTRA ENTRIES, boosting your chances of winning these fantastic prizes.<br></br> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiNujEugYjy4TKDjWwE9x6nbPNCoAXTPGB_CN84eRG4lZkvw/viewform">docs.google.com/forms/d/e/1FAIpQLSfiNujEugYjy4TKDjWwE9x6nbPNCoAXTPGB_CN84eRG4lZkvw/viewform</a><br></br> Every event attendee automatically receives a FREE entry for a chance to WIN BIG.<br></br> Don’t miss out on our EXCLUSIVE EVENT BOOKING DISCOUNTS, available only at Pür Life Medical - Cottonwood Heights, Utah Grand Opening Event. Enjoy savings of up to 35% off on all booked services during this special occasion.<br></br> Gain ADDITIONAL ENTRIES TO WIN by following us on Social Media and sharing about this event on your social media pages!<br></br> 💻 purlifecottonwood.com<br></br> 📞 385-342-2598<br></br> 📍 1844 Fort Union Blvd, Suite #17 Cottonwood Heights, Utah</p>,
+        caption: <p className='content-caption'>Chances to WIN FREE SERVICES? Sign us up! 😍 <br></br> We are excited to present an incredible opportunity for you to win part of more than $15,000 worth of FREE SERVICES at our Grand Opening Event on Saturday, February 3rd, from 11 am to 3 pm.<br></br> Be part of the event and stand a chance to WIN:<br></br> ✅ Complete Cellulite Reduction<br></br> ✅ Exclusive Semaglutide Weight Loss Package<br></br> ✅ Hormone Blood Test with a Doctor’s Visit<br></br> ✅ Rejuvenating Lymphatic Massage Session<br></br> ✅ Invigorating Red Light Therapy Treatment Session<br></br> ✅ Revitalizing Cold Plunge and Sauna Session<br></br> ✅ Comprehensive Full-Body Menla Scan<br></br> ✅ Relaxing Compression Boot and Massage Chair Session<br></br> Visit our website for event details:<br></br> 💻 <a href="https://purlifecottonwood.com/grand-opening-event/">purlifecottonwood.com/grand-opening-event/</a><br></br> And guess what? It gets even better! By PRE-REGISTERING for the Grand Opening Event using the link below or in our bio, you’ll earn EXTRA ENTRIES, boosting your chances of winning these fantastic prizes.<br></br> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiNujEugYjy4TKDjWwE9x6nbPNCoAXTPGB_CN84eRG4lZkvw/viewform">docs.google.com/forms/d/e/1FAIpQLSfiNujEugYjy4TKDjWwE9x6nbPNCoAXTPGB_CN84eRG4lZkvw/viewform</a><br></br> Every event attendee automatically receives a FREE entry for a chance to WIN BIG.<br></br> Don’t miss out on our EXCLUSIVE EVENT BOOKING DISCOUNTS, available only at Pür Life Medical - Cottonwood Heights, Utah Grand Opening Event. Enjoy savings of up to 35% off on all booked services during this special occasion.<br></br> We can't wait to see you there!</p>,
         purpose: <p className="content-purpose">This was used both as a social post and as an ad to promote PLM’s Grand Opening Event. Showcase services available and the giveaway they would be hosting at the event.</p>,
         equipment: <p className="content-equipment">DJI Pocket Osmo 3, CapCut</p>
       }, 
@@ -535,54 +535,57 @@ const brands = [
       {
         src: ZivaSqr1,
         caption: <p className="content-caption">If you suffer from women's urinary incontinence let us help you! Schedule your free consultation today at www.zivautah.com.</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This was a play on a popular meme at the time to help destigmatize conversation around women's incontinence issues.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr2,
         caption: <p className="content-caption">ZIVA offers a new solution for women’s health!<br></br>Our clinically-proven, non-invasive treatment restores intimate health with just one treatment!<br></br>What is ZIVA? A 60-minute, in-office appointment, where one of our trained women’s health professionals administers the Viveve® treatment to stimulate natural collagen production, allowing your body to naturally rebuild and strengthen its tissue, leading to no more leaks!<br></br>Schedule your free consultation today at www.zivautah.com!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This graphic showcases how Ziva is able to support women’s incontinence with their services.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr3,
         caption: <p className="content-caption">Did you know that vaginal dryness occurs in women of all ages, but becomes more common after menopause? It is estimated that 90% of women with dryness don't seek treatment of their symptoms.<br></br>Don't let dryness stop you from turning up the heat with your partner this season! Schedule a free consultation to learn how Ziva can change your intimate health today.</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This graphic was aimed to highlight another service that Ziva provided that improved vaginal dryness.
+        </p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr4,
         caption: <p className="content-caption">Women are full of strength ✨💖</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is a fun “quote” that I created that includes a fun way to talk about pelvic floor health.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr5,
         caption: <p className="content-caption">Give yourself the gift that keeps on giving with vaginal rejuvenation 💖 Reach out to us today for your free consultation at www.zivautah.com!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is a graphic that I created to talk about the services that Ziva provided.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr6,
         caption: <p className="content-caption">Why does it always happen like this?? 🚗 🚙 😂<br></br>Tag a friend who would LOL at this in the comments below!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is a meme that I created to help destigmatize women’s health issues.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr7,
         caption: <p className="content-caption">If your bladder leaks after pregnancy, you're not the only one! This is incredibly normal, and studies have found that 1 in 3 women will experience some level of urinary incontinence.<br></br>Let's destigmatize bodies after babies! 👶</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">One of our target audiences for the services that Ziva provided was post-birth mothers who were struggling with incontinence, and this graphic was meant to address that.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr8,
         caption: <p className="content-caption">Find freedom in your everyday life by treating incontinence with Ziva 💖 You deserve being able to enjoy the moments that matter without stress of leaking!</p>,
-        purpose: <p className="content-purpose"></p>,
-        equipment: <p className="content-equipment"></p>
+        purpose: <p className="content-purpose">This is another type of graphic that I was testing on socials to see if it would resonate with our target audience.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
       {
         src: ZivaSqr9,
         caption: <p className="content-caption">Reclaim your life from urinary stress incontinence and improve your sexual arousal through the Viveve vaginal rejuvenation treatment 💖</p>,
+        purpose: <p className="content-purpose">TThis is another example of an informational graphic for Ziva to address pain points that their service could address.</p>,
+        equipment: <p className="content-equipment">Canva</p>
       },
     ],
     video: [BHRTReel],

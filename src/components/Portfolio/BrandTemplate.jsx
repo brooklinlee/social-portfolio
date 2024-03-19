@@ -8,7 +8,7 @@ const BrandTemplate = ({ brand }) => {
   return (  
     <main className='brand-template'>
       <section className='bt-header' style={{ backgroundImage: brand.backgroundImageUrl }}>
-        <h1>{brand.name}</h1>
+        <h1 className='heading-primary'>{brand.name}</h1>
         <h2>{brand.description}</h2>
         <button>{brand.cta}</button>
       </section>
@@ -16,14 +16,10 @@ const BrandTemplate = ({ brand }) => {
         <p>{brand.pDescriptorOne}</p>
         <div className="divided-list">
           <ul>
-            <li>{brand.liOne}</li>
-            <li>{brand.liTwo}</li>
-            <li>{brand.liThree}</li>
+            {brand.liOne}
           </ul>
           <ul>
-            <li>{brand.liOne}</li>
-            <li>{brand.liTwo}</li>
-            <li>{brand.liThree}</li>
+            {brand.liTwo}
           </ul>
         </div>
         <p>{brand.pDescriptorTwo}</p>

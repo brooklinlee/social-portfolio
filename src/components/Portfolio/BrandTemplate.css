@@ -44,8 +44,23 @@
 }
 
 /* description */
+.bt-description {
+  margin: 40px auto;
+  max-width: 85%;
+}
+
 .divided-list {
   display: flex;
+  padding: 20px;
+}
+
+.divided-list ul {
+  width: 50%;
+  padding: 0 60px;
+}
+
+.divided-list li {
+  padding: 0.5em;
 }
 
 /* content */
