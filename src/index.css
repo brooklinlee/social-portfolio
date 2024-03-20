@@ -113,6 +113,16 @@ a {
   background-color: white;
 }
 
+.dropdown-content li {
+  margin: 6px;
+  font-size: 25.6px;
+  text-align: left !important;
+}
+
+.dropdown-content li a {
+  text-align: left;
+}
+
 .dropdown-ul {
   display: flex;
   flex-direction: column;
@@ -124,11 +134,11 @@ a {
 .dropdown-ul li {
   background-color: white;
   text-align: left;
+  width: 100%;
 }
 
-.dropdown-content li {
-  margin: 6px;
-  font-size: 25.6px;
+.dropdown-link {
+  text-align: left;
 }
 
 .dropdown .dropbtn {
@@ -145,6 +155,7 @@ a {
 .dropbtn:hover {
   color: var(--tertiary-color);
   background-color: white;
+  outline: 0px;
 }
 
 .dropdown-content {
@@ -153,6 +164,10 @@ a {
   top: 100%;
   left: 0;
   width: 400px;
+  text-align: left;
+}
+
+.dropdown-content li {
   text-align: left;
 }
 
@@ -172,7 +187,6 @@ a {
 .scrolled {
   background-color: white;
 }
-
 
 /* commonly used classes */
 .full-screen-view {

@@ -38,7 +38,6 @@
 }
 
 .bt-header button:hover {
-  /* background-color: var(--secondary-color); */
   background-color:rgba(0, 0, 0, 0);
   color: var(--primary-color);
   outline: 2px solid ;

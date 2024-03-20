@@ -23,9 +23,10 @@
 .button-div {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
-.blue-button {
+button, .blue-button {
   margin: 20px auto;
   align-self: center;
   background-color: var(--primary-color);
@@ -35,6 +36,17 @@
   border-radius: 48px;
   font-weight: 600;
   transition: 0.3s ease-in-out;
+  font-family: var(--secondary-font);
+}
+
+.blue-button {
+  margin-bottom: 80px;
+}
+
+button:hover {
+  background-color:rgba(0, 0, 0, 0);
+  color: var(--primary-color);
+  outline: 2px solid ;
 }
 
 @media screen and (max-width: 768px) {

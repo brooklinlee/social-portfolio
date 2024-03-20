@@ -24,7 +24,6 @@ const BrandTemplate = ({ brand }) => {
       <section className='bt-header' style={{ backgroundImage: brand.backgroundImageUrl }}>
         <h1 className='heading-primary'>{brand.name}</h1>
         <h2>{brand.description}</h2>
-        {/* <button>{brand.cta}</button> */}
         <button onClick={() => {downloadFileAtURL(PNG_FILE_URL)}}>Download my Resume</button>
       </section>
       <section className="bt-description">
