@@ -5,15 +5,29 @@ import ContentCard from './ContentCard'
 
 const BrandTemplate = ({ brand }) => {
 
+  const PNG_FILE_URL = 'http://localhost:5173/Brooklin-Lee_Social-Media-Manager.pdf'
+  // const PNG_FILE_URL = 'https://brooklin-lee-portfolio.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
+
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href = url
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+  }
+
   return (  
     <main className='brand-template'>
       <section className='bt-header' style={{ backgroundImage: brand.backgroundImageUrl }}>
         <h1 className='heading-primary'>{brand.name}</h1>
         <h2>{brand.description}</h2>
-        <button>{brand.cta}</button>
+        {/* <button>{brand.cta}</button> */}
+        <button onClick={() => {downloadFileAtURL(PNG_FILE_URL)}}>Download my Resume</button>
       </section>
       <section className="bt-description">
-        <p>{brand.pDescriptorOne}</p>
+        {brand.pDescriptorOne}
         <div className="divided-list">
           <ul>
             {brand.liOne}
@@ -22,7 +36,7 @@ const BrandTemplate = ({ brand }) => {
             {brand.liTwo}
           </ul>
         </div>
-        <p>{brand.pDescriptorTwo}</p>
+        {brand.pDescriptorTwo}
       </section>
       <section className='bt-content'>
         {brand.videos && brand.videos.length > 0 && (

@@ -25,7 +25,7 @@ const NavBar = ({ brands }) => {
           </NavLink>
           <ul>
             <li className="navLi"><NavLink to='/' >Home</NavLink></li>
-            <li className="navLi"><NavLink to='/about'>About</NavLink></li>
+            {/* <li className="navLi"><NavLink to='/about'>About</NavLink></li> */}
             <li className="dropdown">
               <button className="dropbtn " >Portfolio</button>
               <div className="dropdown-content">

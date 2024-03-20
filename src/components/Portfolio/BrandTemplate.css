@@ -27,6 +27,7 @@
 }
 
 .bt-header button {
+  font-family: var(--secondary-font);
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 16px 55px;
