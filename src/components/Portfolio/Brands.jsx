@@ -1,7 +1,7 @@
 // images
 // headers
 import PLMHeader from '../../assets/images/PLMHeader.svg'
-import iTOVIHeader from '../../assets/images/iTOVIHeader.svg'
+import iTOVIHeader from '../../assets/images/iTOViHeader.svg'
 import BRHeader from '../../assets/images/BRHeader.svg'
 import OliveHeader from '../../assets/images/OliveHeader.svg'
 import OilStuffHeader from '../../assets/images/OilStuffHeader.svg'
