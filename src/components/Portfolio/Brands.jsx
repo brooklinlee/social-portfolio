@@ -86,15 +86,12 @@ import ZivaSqr7 from '../../assets/images/ZivaSqr7.svg'
 import ZivaSqr8 from '../../assets/images/ZivaSqr8.svg'
 import ZivaSqr9 from '../../assets/images/ZivaSqr9.svg'
 
-// videos
-import BHRTReel from '../../assets/videos/BHRTReel.mp4'
-
 // Pür Life
-import PLMReel1 from '../../assets/images/PLMReel1.mp4'
-import PLMReel2 from '../../assets/images/PLMReel2.mp4'
-import PLMReel3 from '../../assets/images/PLMReel3.mp4'
-import PLMReel4 from '../../assets/images/PLMReel4.mp4'
-import PLMReel5 from '../../assets/images/PLMReel5.mp4'
+import PLMReel1 from '../../assets/videos/PLMReel1.mp4'
+import PLMReel2 from '../../assets/videos/PLMReel2.mp4'
+import PLMReel3 from '../../assets/videos/PLMReel3.mp4'
+import PLMReel4 from '../../assets/videos/PLMReel4.mp4'
+import PLMReel5 from '../../assets/videos/PLMReel5.mp4'
 
 // Black Rock
 import BRReel1 from '../../assets/images/BRReel1.mp4'
@@ -583,7 +580,7 @@ const brands = [
         equipment: <p className="content-equipment">Canva</p>
       },
     ],
-    video: [BHRTReel],
+    video: [],
     carousel: []
   }
 ]
