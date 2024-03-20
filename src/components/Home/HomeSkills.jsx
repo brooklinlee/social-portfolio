@@ -8,7 +8,7 @@ import './HomeSkills.css'
 
 const HomeSkills = () => {
 
-  const PNG_FILE_URL = 'https://https://brooklinlee-socialmediamanager.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
+  const PNG_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
 
   const downloadFileAtURL = (url) => {
     const fileName = url.split('/').pop()

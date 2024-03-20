@@ -6,7 +6,7 @@ import ContentCard from './ContentCard'
 const BrandTemplate = ({ brand }) => {
 
   // const PNG_FILE_URL = 'http://localhost:5173/Brooklin-Lee_Social-Media-Manager.pdf'
-  const PNG_FILE_URL = 'https://https://brooklinlee-socialmediamanager.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
+  const PNG_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
 
   const downloadFileAtURL = (url) => {
     const fileName = url.split('/').pop()
