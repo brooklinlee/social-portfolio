@@ -6,17 +6,35 @@ import ContentCard from './ContentCard'
 const BrandTemplate = ({ brand }) => {
 
   // const PDF_FILE_URL = 'http://localhost:5173/BrooklinLee_SocialMediaManager.pdf'
-  const PDF_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/BrooklinLee_SocialMediaManager.pdf'
+  // const PDF_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/BrooklinLee_SocialMediaManager.pdf'
+
+  // const downloadFileAtURL = (url) => {
+  //   const fileName = url.split('/').pop()
+  //   const aTag = document.createElement('a')
+  //   aTag.href = url
+  //   aTag.setAttribute('download', fileName)
+  //   aTag.setAttribute('target', '_blank')
+  //   document.body.appendChild(aTag)
+  //   aTag.click()
+  //   aTag.remove()
+  // }
+
+  const PDF_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/BrooklinLee_SocialMediaManager.pdf';
 
   const downloadFileAtURL = (url) => {
-    const fileName = url.split('/').pop()
-    const aTag = document.createElement('a')
-    aTag.href = url
-    aTag.setAttribute('download', fileName)
-    aTag.setAttribute('target', '_blank')
-    document.body.appendChild(aTag)
-    aTag.click()
-    aTag.remove()
+    const fileName = url.split('/').pop();
+    fetch(url)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob]))
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        document.body.removeChild(aTag)
+      })
+      .catch(error => console.error('Error downloading file:', error))
   }
 
   return (  
