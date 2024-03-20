@@ -26,7 +26,7 @@
   justify-content: center;
 }
 
-button, .blue-button {
+.blue-button {
   margin: 20px auto;
   align-self: center;
   background-color: var(--primary-color);
@@ -43,7 +43,7 @@ button, .blue-button {
   margin-bottom: 80px;
 }
 
-button:hover {
+.blue-button:hover {
   background-color:rgba(0, 0, 0, 0);
   color: var(--primary-color);
   outline: 2px solid ;
