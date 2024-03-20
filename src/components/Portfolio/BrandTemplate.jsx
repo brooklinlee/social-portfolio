@@ -5,8 +5,8 @@ import ContentCard from './ContentCard'
 
 const BrandTemplate = ({ brand }) => {
 
-  // const PNG_FILE_URL = 'http://localhost:5173/Brooklin-Lee_Social-Media-Manager.pdf'
-  const PNG_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/Brooklin-Lee_Social-Media-Manager.pdf'
+  // const PDF_FILE_URL = 'http://localhost:5173/BrooklinLee_SocialMediaManager.pdf'
+  const PDF_FILE_URL = 'https://brooklinlee-socialmediamanager.netlify.app/BrooklinLee_SocialMediaManager.pdf'
 
   const downloadFileAtURL = (url) => {
     const fileName = url.split('/').pop()
@@ -24,7 +24,7 @@ const BrandTemplate = ({ brand }) => {
       <section className='bt-header' style={{ backgroundImage: brand.backgroundImageUrl }}>
         <h1 className='heading-primary'>{brand.name}</h1>
         <h2>{brand.description}</h2>
-        <button onClick={() => {downloadFileAtURL(PNG_FILE_URL)}}>Download my Resume</button>
+        <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}}>Download my Resume</button>
       </section>
       <section className="bt-description">
         {brand.pDescriptorOne}
