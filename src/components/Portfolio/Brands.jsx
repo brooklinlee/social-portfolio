@@ -94,12 +94,12 @@ import PLMReel4 from '../../assets/videos/PLMReel4.mp4'
 import PLMReel5 from '../../assets/videos/PLMReel5.mp4'
 
 // Black Rock
-import BRReel1 from '../../assets/images/BRReel1.mp4'
-import BRReel2 from '../../assets/images/BRReel2.mp4'
-import BRReel3 from '../../assets/images/BRReel3.mp4'
+import BRReel1 from '../../assets/videos/BRReel1.mp4'
+import BRReel2 from '../../assets/videos/BRReel2.mp4'
+import BRReel3 from '../../assets/videos/BRReel3.mp4'
 
 // Olive
-import OliveReel1 from '../../assets/images/OliveReel1.mp4'
+import OliveReel1 from '../../assets/videos/OliveReel1.mp4'
 
 const brands = [
   {
